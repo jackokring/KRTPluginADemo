@@ -1,0 +1,405 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 2,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 9,
+      "text": "As you can see, the Mu is a crispy lit potato on high frequency transients. Some precise distortion there. You might need a post filter, to kill the highs.\n\nTry all six outputs on the Mu and play with lambda.",
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": -16.1999893
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 4,
+      "pos": [
+        25,
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 3,
+      "rightModuleId": 5,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "default",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 4096
+        }
+      },
+      "pos": [
+        35,
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 15.5000105
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 3.83999896
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4,
+      "rightModuleId": 6,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        45,
+        0
+      ]
+    },
+    {
+      "id": 6,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.588463426
+        },
+        {
+          "id": 2,
+          "value": 0.77216053
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 5,
+      "pos": [
+        58,
+        0
+      ]
+    },
+    {
+      "id": 9,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "leftModuleId": 2,
+      "data": {
+        "channels": 1,
+        "polyMode": 0,
+        "clockDivision": 24,
+        "lastPitch": 8192,
+        "lastMod": 0,
+        "midi": {
+          "driver": -11,
+          "deviceName": "QWERTY keyboard (US)",
+          "channel": -1
+        }
+      },
+      "pos": [
+        16,
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "plugin": "KRTPluginA",
+      "version": "1.3.4",
+      "model": "Mu",
+      "params": [
+        {
+          "id": 0,
+          "value": -12.0000076
+        },
+        {
+          "id": 1,
+          "value": 3.96399975
+        },
+        {
+          "id": 2,
+          "value": -1.69800091
+        },
+        {
+          "id": 3,
+          "value": 1.58399451
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 13,
+      "pos": [
+        17,
+        0
+      ]
+    },
+    {
+      "id": 12,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.784999907
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        }
+      ],
+      "pos": [
+        5,
+        0
+      ]
+    },
+    {
+      "id": 13,
+      "plugin": "KRTPluginA",
+      "version": "1.3.4",
+      "model": "R",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.40400016
+        }
+      ],
+      "rightModuleId": 11,
+      "pos": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": 14,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": -16.5240002
+        },
+        {
+          "id": 3,
+          "value": 0.350999713
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "pos": [
+        26,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 5,
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 7,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 10,
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 11,
+      "outputModuleId": 6,
+      "outputId": 2,
+      "inputModuleId": 5,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 12,
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 13,
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 9,
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 11,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 17,
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 18,
+      "outputModuleId": 14,
+      "outputId": 1,
+      "inputModuleId": 11,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 19,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 21,
+      "outputModuleId": 11,
+      "outputId": 4,
+      "inputModuleId": 6,
+      "inputId": 1,
+      "color": "#0986ad"
+    }
+  ]
+}
