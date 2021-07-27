@@ -1,4 +1,4 @@
-Welcome to KRTPluginA
+Welcome to [KRTPluginA](https://library.vcvrack.com/KRTPluginA)
 ===
 
 Built with the most excellent GitHub pages facility. **Under Construction: Always But Slowly**. Recommended.
