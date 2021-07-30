@@ -43,7 +43,7 @@ for a randomization of a clock signal to many gateable modules for some chaotic 
 There is a great book on modal logic called [To Mock a Mocking Bird](https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird), itself a follow up to [Forever Undecided(https://en.wikipedia.org/wiki/Raymond_Smullyan). A lay person introduction to the subject.
 
 ### V
-helps with all the clocking combining to trigger envelopes and the CV of oscillators. It is really good to be able to trigger an envelope VCA and just wire it into oscillators.
+helps with all the clocking combining to trigger envelopes and the CV of oscillators. It is really good to be able to trigger an envelope VCA and just wire it into oscillators. So a three envelopes in one was designed, and having trigger combining for CV modulation to decide a note seemed cool too.
 
 From Beyond **vTBC**
 ---
