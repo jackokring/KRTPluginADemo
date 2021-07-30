@@ -166,6 +166,30 @@
         22,
         0
       ]
+    },
+    {
+      "id": 16,
+      "plugin": "KRTPluginA",
+      "version": "1.6.9",
+      "model": "V",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "pos": [
+        9,
+        0
+      ]
     }
   ],
   "cables": [
