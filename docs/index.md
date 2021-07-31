@@ -40,8 +40,6 @@ Installment of the Next 18 HP Allocation **vTBC**
 ### Ω
 for a randomization of a clock signal to many gateable modules for some chaotic looping. Internally a mathematics thing again with a `BIRD` knob for some patterns from modal logic. It has a reset input to repeat the same sequence and so can work as an automatic pattern sequencer similar to a Euclidian step sequencer.
 
-There is a great book on modal logic called [To Mock a Mocking Bird](https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird), itself a follow up to [Forever Undecided(https://en.wikipedia.org/wiki/Raymond_Smullyan). A lay person introduction to the subject.
-
 ### V
 helps with all the clocking combining to trigger envelopes and the CV of oscillators. It is really good to be able to trigger an envelope VCA and just wire it into oscillators. So a three envelopes in one was designed, and having trigger combining for CV modulation to decide a note seemed cool too.
 
