@@ -1,9 +1,9 @@
-Welcome to [KRTPluginA](https://library.vcvrack.com/KRTPluginA)
+Welcome to the [KRTPluginA](https://library.vcvrack.com/KRTPluginA) Blog Site
 ===
 
 Built with the most excellent GitHub pages facility. **Under Construction: Always But Slowly**. Recommended.
 
-And it came to pass that VCV Rack didn't need a full build, which didn't work for me, and now I can make some modules. This plugin brings together some ideas I've had for a while into functioning modules.
+And it came to pass that VCV Rack didn't need a full build, which didn't work for me, and now I can make some modules. This plugin brings together some ideas I've had for a while into functioning modules. The public release is [here](https://library.vcvrack.com/KRTPluginA), and as compiling a later test release can be complicated you may have to wait sometimes for the new features.
 
 The First 26 HP **v1.6.9**
 ---
@@ -40,7 +40,7 @@ Installment of the Next 18 HP Allocation **vTBC**
 ### Ω
 for a randomization of a clock signal to many gateable modules for some chaotic looping. Internally a mathematics thing again with a `BIRD` knob for some patterns from modal logic. It has a reset input to repeat the same sequence and so can work as an automatic pattern sequencer similar to a Euclidian step sequencer.
 
-The most interesting design decision is about the nature of polyphonic in the context of a clock distributor.
+The most interesting design decision is about the nature of polyphonic in the context of a clock distributor. With a polyphonic clock the outputs latch earlier versions of the first channel into later channels.
 
 ### V
 helps with all the clocking combining to trigger envelopes and the CV of oscillators. It is really good to be able to trigger an envelope VCA and just wire it into oscillators. So a three envelopes in one was designed, and having trigger combining for CV modulation to decide a note seemed cool too.
