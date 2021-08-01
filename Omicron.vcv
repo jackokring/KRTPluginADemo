@@ -52,7 +52,7 @@
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": -1.0
         },
         {
           "id": 3,
@@ -98,11 +98,11 @@
         },
         {
           "id": 1,
-          "value": 0.949088097
+          "value": 1.00424194
         },
         {
           "id": 2,
-          "value": 0.500630975
+          "value": 0.0
         },
         {
           "id": 3,
@@ -126,6 +126,7 @@
       "model": "MIDIToCVInterface",
       "params": [],
       "leftModuleId": 2,
+      "rightModuleId": 20,
       "data": {
         "channels": 1,
         "polyMode": 0,
@@ -176,17 +177,18 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": -0.672000229
         },
         {
           "id": 1,
-          "value": 1.0
+          "value": -6.53400469
         },
         {
           "id": 2,
-          "value": 1.0
+          "value": -2.90599632
         }
       ],
+      "leftModuleId": 18,
       "pos": [
         55,
         1
@@ -200,7 +202,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.643999636
+          "value": 0.475999236
         },
         {
           "id": 1,
@@ -377,6 +379,90 @@
         },
         {
           "id": 2,
+          "value": 18.4680042
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 19,
+      "rightModuleId": 16,
+      "pos": [
+        45,
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -2.10599995
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 20,
+      "rightModuleId": 18,
+      "pos": [
+        35,
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
           "value": 0.0
         },
         {
@@ -396,8 +482,10 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 9,
+      "rightModuleId": 19,
       "pos": [
-        42,
+        25,
         1
       ]
     }
@@ -412,28 +500,12 @@
       "color": "#0c8e15"
     },
     {
-      "id": 6,
-      "outputModuleId": 17,
-      "outputId": 0,
-      "inputModuleId": 15,
-      "inputId": 0,
-      "color": "#0c8e15"
-    },
-    {
       "id": 7,
       "outputModuleId": 18,
       "outputId": 2,
       "inputModuleId": 16,
       "inputId": 3,
       "color": "#c91847"
-    },
-    {
-      "id": 8,
-      "outputModuleId": 16,
-      "outputId": 1,
-      "inputModuleId": 6,
-      "inputId": 1,
-      "color": "#c9b70e"
     },
     {
       "id": 9,
@@ -444,22 +516,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 10,
-      "outputModuleId": 15,
-      "outputId": 12,
-      "inputModuleId": 16,
-      "inputId": 4,
-      "color": "#c91847"
-    },
-    {
-      "id": 11,
-      "outputModuleId": 16,
-      "outputId": 0,
-      "inputModuleId": 18,
-      "inputId": 0,
-      "color": "#0986ad"
-    },
-    {
       "id": 12,
       "outputModuleId": 18,
       "outputId": 2,
@@ -468,11 +524,115 @@
       "color": "#c9b70e"
     },
     {
-      "id": 13,
-      "outputModuleId": 6,
-      "outputId": 2,
-      "inputModuleId": 5,
+      "id": 16,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 6,
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 18,
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 18,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 8,
+      "outputModuleId": 16,
+      "outputId": 3,
+      "inputModuleId": 6,
       "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 21,
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 10,
+      "color": "#c91847"
+    },
+    {
+      "id": 19,
+      "outputModuleId": 19,
+      "outputId": 3,
+      "inputModuleId": 16,
+      "inputId": 9,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 22,
+      "outputModuleId": 16,
+      "outputId": 4,
+      "inputModuleId": 19,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 14,
+      "outputModuleId": 15,
+      "outputId": 11,
+      "inputModuleId": 16,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 24,
+      "outputModuleId": 15,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 25,
+      "outputModuleId": 15,
+      "outputId": 4,
+      "inputModuleId": 16,
+      "inputId": 11,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 26,
+      "outputModuleId": 16,
+      "outputId": 2,
+      "inputModuleId": 20,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 27,
+      "outputModuleId": 20,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 6,
+      "color": "#0986ad"
+    },
+    {
+      "id": 28,
+      "outputModuleId": 15,
+      "outputId": 12,
+      "inputModuleId": 16,
+      "inputId": 7,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 29,
+      "outputModuleId": 15,
+      "outputId": 5,
+      "inputModuleId": 16,
+      "inputId": 8,
       "color": "#0c8e15"
     }
   ]
