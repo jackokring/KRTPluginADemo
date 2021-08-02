@@ -22,11 +22,11 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 2,
@@ -140,7 +140,7 @@
         },
         {
           "id": 1,
-          "value": 1.12995601
+          "value": 0.994192004
         },
         {
           "id": 2,
@@ -188,20 +188,20 @@
     {
       "id": 11,
       "plugin": "KRTPluginA",
-      "version": "1.8.10",
+      "version": "1.8.13",
       "model": "Mu",
       "params": [
         {
           "id": 0,
-          "value": -8.8500042
+          "value": -3.99000001
         },
         {
           "id": 1,
-          "value": 0.164002523
+          "value": -0.559999108
         },
         {
           "id": 2,
-          "value": -10.2059956
+          "value": -10.4760027
         },
         {
           "id": 3,
@@ -225,7 +225,7 @@
     {
       "id": 13,
       "plugin": "KRTPluginA",
-      "version": "1.8.10",
+      "version": "1.8.13",
       "model": "R",
       "params": [
         {
@@ -234,7 +234,7 @@
         },
         {
           "id": 1,
-          "value": 3.67199421
+          "value": 1.58399796
         }
       ],
       "rightModuleId": 11,
@@ -251,15 +251,15 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 2,
-          "value": -3.00000095
+          "value": -14.9999914
         },
         {
           "id": 3,
@@ -408,25 +408,25 @@
       "color": "#c91847"
     },
     {
-      "id": 9,
-      "outputModuleId": 3,
-      "outputId": 0,
-      "inputModuleId": 11,
-      "inputId": 3,
-      "color": "#0c8e15"
-    },
-    {
       "id": 30,
       "outputModuleId": 14,
-      "outputId": 0,
+      "outputId": 3,
       "inputModuleId": 13,
       "inputId": 0,
       "color": "#c91847"
     },
     {
+      "id": 9,
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 11,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
       "id": 35,
       "outputModuleId": 11,
-      "outputId": 5,
+      "outputId": 4,
       "inputModuleId": 6,
       "inputId": 1,
       "color": "#0c8e15"
