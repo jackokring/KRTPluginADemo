@@ -50,3 +50,6 @@ Try [Omicron](https://github.com/jackokring/KRTPluginADemo/blob/master/Omicron.v
 From Beyond **vTBC**
 ---
 
+So with eight modules completed [plugin issues](https://github.com/jackokring/KRTPluginA/issues) can be filed for feature requests. Any interesting demos can be [filed with a link](https://github.com/jackokring/KRTPluginADemo/issues) to extend the demos available.
+
+I'm currently putting together ideas for more modules. The built in selection is quite good and I've got to check out more of the library.
