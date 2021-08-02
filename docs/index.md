@@ -34,7 +34,7 @@ got jokingly assigned a letter by TL;DR, but it is an exponetial VCA. It also fe
 ### R
 such a simple module. take any cable and split it to the input and the output goes to where the cable ended. Precise CV conservation pass through. Then you can gain another signal on, and take that sum which is the output with the other signal on, and take it as another gain controlled CV to somewhere else. A generic mixer/splitter and no demo is needed.
 
-Installment of the Next 18 HP Allocation **v1.8.10**
+Installment of the Next 18 HP Allocation **v1.8.11**
 ---
 
 ### Ω
