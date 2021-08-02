@@ -4,7 +4,7 @@
     {
       "id": 0,
       "plugin": "KRTPluginA",
-      "version": "1.3.4",
+      "version": "1.8.10",
       "model": "T",
       "params": [
         {
@@ -222,7 +222,7 @@
         },
         {
           "id": 2,
-          "value": -16.1999893
+          "value": -13.283989
         },
         {
           "id": 3,
