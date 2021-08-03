@@ -57,3 +57,4 @@ I'm currently putting together ideas for more modules. The built in selection is
 ### F
 an interesting F/Q extension to a three parameter F/S/S. Control of the default filter (some standard patterns), brings the filter into a 3D morphological extension of a standard quad of default beautifuls. Bessel, Botterworth, Linkwitz-Riley and Legendre.
 
+I think a 1V by 1V square on `SPD` and `SKW` should do it.
