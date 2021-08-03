@@ -53,3 +53,7 @@ From Beyond **vTBC**
 So with eight modules completed [plugin issues](https://github.com/jackokring/KRTPluginA/issues) can be filed for feature requests. Any interesting demos can be [filed with a link](https://github.com/jackokring/KRTPluginADemo/issues) to extend the demos available.
 
 I'm currently putting together ideas for more modules. The built in selection is quite good and I've got to check out more of the library.
+
+### F
+an interesting F/Q extension to a three parameter F/S/S. Control of the default filter (some standard patterns), brings the filter into a 3D morphological extension of a standard quad of default beautifuls. Bessel, Botterworth, Linkwitz-Riley and Legeurre.
+
