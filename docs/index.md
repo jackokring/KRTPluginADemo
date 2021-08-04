@@ -47,7 +47,7 @@ helps with all the clocking combining to trigger envelopes and the CV of oscilla
 
 Try [Omicron](https://github.com/jackokring/KRTPluginADemo/blob/master/Omicron.vcv) for both these last two modules.
 
-From Beyond **vTBC**
+From Beyond **v1.9.14**
 ---
 
 So with eight modules completed [plugin issues](https://github.com/jackokring/KRTPluginA/issues) can be filed for feature requests. Any interesting demos can be [filed with a link](https://github.com/jackokring/KRTPluginADemo/issues) to extend the demos available.
@@ -57,4 +57,4 @@ I'm currently putting together ideas for more modules. The built in selection is
 ### F
 an interesting F/Q extension to a three parameter F/S/S. Control of the default filter (some standard patterns), brings the filter into a 3D morphological extension of a standard quad of default beautifuls. Bessel, Botterworth, Linkwitz-Riley and Legendre.
 
-I think a 1V by 1V square on `SPD` and `SKW` should do it.
+I think a 1V by 1V square on `SPD` and `SKW` should do it. Try [morph](https://github.com/jackokring/KRTPluginADemo/blob/master/morph.vcv) for this module.

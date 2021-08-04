@@ -8,9 +8,9 @@
       "model": "Notes",
       "params": [],
       "rightModuleId": 9,
-      "text": "The D VCA does not quench, but just modulates relative dB on a key press. The filter is used as the D output is spikey on the gibbs. The filter suppresses this.\n\nI'd suggest a sine or triangle for playing with AM on the filter,\n\nRemove the KRT D from circuit for the filter by itself.nvc",
+      "text": "The F morph filter.",
       "pos": [
-        1,
+        0,
         1
       ]
     },
@@ -26,11 +26,11 @@
         },
         {
           "id": 1,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 2,
-          "value": -16.1999893
+          "value": 0.323997021
         },
         {
           "id": 3,
@@ -49,10 +49,9 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 11,
-      "rightModuleId": 4,
+      "rightModuleId": 14,
       "pos": [
-        26,
+        0,
         0
       ]
     },
@@ -62,7 +61,7 @@
       "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
-      "leftModuleId": 3,
+      "leftModuleId": 15,
       "rightModuleId": 5,
       "data": {
         "audio": {
@@ -75,7 +74,7 @@
         }
       },
       "pos": [
-        36,
+        35,
         0
       ]
     },
@@ -125,7 +124,7 @@
         "external": 0
       },
       "pos": [
-        46,
+        45,
         0
       ]
     },
@@ -137,15 +136,15 @@
       "params": [
         {
           "id": 0,
-          "value": 1.57299984
+          "value": 1.0
         },
         {
           "id": 1,
-          "value": 1.18086779
+          "value": 1.0238899
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 1.013991
         },
         {
           "id": 3,
@@ -158,7 +157,7 @@
       ],
       "leftModuleId": 5,
       "pos": [
-        59,
+        58,
         0
       ]
     },
@@ -182,111 +181,184 @@
         }
       },
       "pos": [
-        17,
+        16,
         1
       ]
     },
     {
-      "id": 11,
+      "id": 14,
       "plugin": "KRTPluginA",
       "version": "1.9.14",
-      "model": "D",
+      "model": "F",
       "params": [
         {
           "id": 0,
-          "value": -8.28299427
+          "value": 0.201999754
         },
         {
           "id": 1,
-          "value": 5.04600191
+          "value": -0.182000458
         },
         {
           "id": 2,
-          "value": -1.10400021
+          "value": 1.45599639
+        },
+        {
+          "id": 3,
+          "value": -1.0
+        },
+        {
+          "id": 4,
+          "value": 0.804000497
+        },
+        {
+          "id": 5,
+          "value": -1.0
         }
       ],
-      "rightModuleId": 3,
+      "leftModuleId": 3,
+      "rightModuleId": 17,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "LFO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 2.99799919
+        },
+        {
+          "id": 3,
+          "value": 1.5
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 16,
+      "rightModuleId": 4,
+      "pos": [
+        29,
+        0
+      ]
+    },
+    {
+      "id": 16,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "LFO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.216999158
+        },
+        {
+          "id": 3,
+          "value": 1.5
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        }
+      ],
+      "rightModuleId": 15,
       "pos": [
         23,
         0
       ]
     },
     {
-      "id": 12,
-      "plugin": "Fundamental",
-      "version": "1.4.0",
-      "model": "ADSR",
+      "id": 17,
+      "plugin": "KRTPluginA",
+      "version": "1.9.14",
+      "model": "R",
       "params": [
         {
           "id": 0,
-          "value": 0.217999816
+          "value": 0.0
         },
         {
           "id": 1,
-          "value": 0.424999893
-        },
-        {
-          "id": 2,
-          "value": 0.274999946
-        },
-        {
-          "id": 3,
-          "value": 0.717499971
+          "value": 4.81199932
         }
       ],
+      "leftModuleId": 14,
       "pos": [
-        0,
+        15,
         0
       ]
     },
     {
-      "id": 13,
+      "id": 18,
       "plugin": "KRTPluginA",
       "version": "1.9.14",
-      "model": "A",
+      "model": "R",
       "params": [
         {
           "id": 0,
-          "value": -0.635999978
+          "value": 0.0
         },
         {
           "id": 1,
-          "value": 0.323999912
-        },
-        {
-          "id": 2,
-          "value": 13.4759874
-        },
-        {
-          "id": 3,
-          "value": -1.51999915
-        },
-        {
-          "id": 4,
-          "value": 0.599999905
-        },
-        {
-          "id": 5,
-          "value": 2.99699736
+          "value": 3.89400101
         }
       ],
       "pos": [
-        12,
+        19,
         0
       ]
     }
   ],
   "cables": [
     {
-      "id": 5,
-      "outputModuleId": 6,
+      "id": 37,
+      "outputModuleId": 3,
+      "outputId": 2,
+      "inputModuleId": 14,
+      "inputId": 6,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 38,
+      "outputModuleId": 14,
       "outputId": 0,
-      "inputModuleId": 4,
-      "inputId": 0,
+      "inputModuleId": 6,
+      "inputId": 1,
       "color": "#0c8e15"
     },
     {
-      "id": 7,
+      "id": 39,
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 40,
       "outputModuleId": 9,
       "outputId": 0,
       "inputModuleId": 3,
@@ -294,84 +366,60 @@
       "color": "#0986ad"
     },
     {
-      "id": 6,
-      "outputModuleId": 3,
-      "outputId": 2,
-      "inputModuleId": 6,
+      "id": 41,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 14,
       "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 42,
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 43,
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 1,
       "color": "#c91847"
     },
     {
-      "id": 8,
-      "outputModuleId": 9,
-      "outputId": 1,
-      "inputModuleId": 12,
-      "inputId": 4,
+      "id": 45,
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 17,
+      "inputId": 0,
       "color": "#c9b70e"
     },
     {
-      "id": 9,
-      "outputModuleId": 12,
+      "id": 46,
+      "outputModuleId": 17,
       "outputId": 0,
-      "inputModuleId": 11,
-      "inputId": 1,
+      "inputModuleId": 14,
+      "inputId": 0,
       "color": "#0c8e15"
     },
     {
-      "id": 10,
-      "outputModuleId": 13,
-      "outputId": 1,
-      "inputModuleId": 6,
-      "inputId": 1,
-      "color": "#0986ad"
-    },
-    {
-      "id": 12,
-      "outputModuleId": 6,
-      "outputId": 2,
-      "inputModuleId": 5,
-      "inputId": 1,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 13,
-      "outputModuleId": 6,
-      "outputId": 1,
-      "inputModuleId": 5,
+      "id": 44,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 18,
       "inputId": 0,
       "color": "#0986ad"
     },
     {
-      "id": 14,
-      "outputModuleId": 9,
+      "id": 47,
+      "outputModuleId": 18,
       "outputId": 0,
-      "inputModuleId": 13,
+      "inputModuleId": 14,
       "inputId": 1,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 15,
-      "outputModuleId": 12,
-      "outputId": 0,
-      "inputModuleId": 13,
-      "inputId": 4,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 1,
-      "outputModuleId": 3,
-      "outputId": 2,
-      "inputModuleId": 11,
-      "inputId": 0,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 36,
-      "outputModuleId": 11,
-      "outputId": 0,
-      "inputModuleId": 13,
-      "inputId": 0,
-      "color": "#0c8e15"
+      "color": "#c91847"
     }
   ]
 }
