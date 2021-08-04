@@ -47,7 +47,7 @@ helps with all the clocking combining to trigger envelopes and the CV of oscilla
 
 Try [Omicron](https://github.com/jackokring/KRTPluginADemo/blob/master/Omicron.vcv) for both these last two modules.
 
-From Beyond **v1.9.14**
+From Beyond **v1.9.15**
 ---
 
 So with eight modules completed [plugin issues](https://github.com/jackokring/KRTPluginA/issues) can be filed for feature requests. Any interesting demos can be [filed with a link](https://github.com/jackokring/KRTPluginADemo/issues) to extend the demos available.

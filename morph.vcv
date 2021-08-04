@@ -188,7 +188,7 @@
     {
       "id": 14,
       "plugin": "KRTPluginA",
-      "version": "1.9.14",
+      "version": "1.9.15",
       "model": "F",
       "params": [
         {
@@ -293,7 +293,7 @@
     {
       "id": 17,
       "plugin": "KRTPluginA",
-      "version": "1.9.14",
+      "version": "1.9.15",
       "model": "R",
       "params": [
         {
@@ -314,7 +314,7 @@
     {
       "id": 18,
       "plugin": "KRTPluginA",
-      "version": "1.9.14",
+      "version": "1.9.15",
       "model": "R",
       "params": [
         {
