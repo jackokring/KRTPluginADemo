@@ -58,3 +58,5 @@ I'm currently putting together ideas for more modules. The built in selection is
 an interesting F/Q extension to a three parameter F/S/S. Control of the default filter (some standard patterns), brings the filter into a 3D morphological extension of a standard quad of default beautifuls. Bessel, Botterworth, Linkwitz-Riley and Legendre.
 
 I think a 1V by 1V square on `SPD` and `SKW` should do it. Try [morph](https://github.com/jackokring/KRTPluginADemo/blob/master/morph.vcv) for this module.
+
+A 5V by 5V modulation square with +6dB ins (20V) gives quite a range.
