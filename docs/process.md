@@ -10,7 +10,7 @@ You maybe code blind to how you see your module, but yes, I've miss-labelled IO 
 
 Try not to push code on an empty stomach. At least wait while you're saited before a "dial commit" to "downstream", and yes there should be an unlocking locking mechanism and a "side fart" on the discussion mailer, but this is not of Git today, so ...
 
-# How I do a Module
+# How I do a Module **Rack v1** (better than 0.x)
 * Find module of similar HP, LANES and RUNGS. `Save As ...` the graphics. Add a `components` layer. do `5.08 * HP` and set dimensions in `sudo apt got inkscape`.
 * run the `../../yes <X>` script that does not exist but `createmodule` might.
 * Copy the macros:
