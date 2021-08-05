@@ -10,3 +10,65 @@ You maybe code blind to how you see your module, but yes, I've miss-labelled IO 
 
 Try not to push code on an empty stomach. At least wait while you're saited before a "dial commit" to "downstream", and yes there should be an unlocking locking mechanism and a "side fart" on the discussion mailer, but this is not of Git today, so ...
 
+# How I do a Module
+* Find module of similar HP, LANES and RUNGS. `Save As ...` the graphics. Add a `components` layer. do `5.08 * HP` and set dimensions in `sudo apt got inkscape`.
+* run the `../../yes <X>` script that does not exist but `createmodule` might.
+* Copy the macros:
+```
+//geometry edit
+#define HP 5
+#define LANES 2
+#define RUNGS 7
+
+//ok
+#define HP_UNIT 5.08
+#define WIDTH (HP*HP_UNIT)
+#define X_SPLIT (WIDTH / 2.f / LANES)
+
+#define HEIGHT 128.5
+#define Y_MARGIN 0.05f
+#define R_HEIGHT (HEIGHT*(1-2*Y_MARGIN))
+#define Y_SPLIT (R_HEIGHT / 2.f / RUNGS)
+
+//placement macro
+#define loc(x,y) mm2px(Vec(X_SPLIT*(1+2*(x-1)), (HEIGHT*Y_MARGIN)+Y_SPLIT*(1+2*(y-1))))
+```
+
+* Fill in IO and parameter names.
+* Add controls.
+* Test compile.
+* Move about the labels, delete (essential?) "contols" `components` layer.
+* Copy:
+```
+	int maxPoly() {
+		int poly = 1;
+		for(int i = 0; i < NUM_INPUTS; i++) {
+			int chan = inputs[i].getChannels();
+			if(chan > poly) poly = chan;
+		}
+		for(int o = 0; o < NUM_OUTPUTS; o++) {
+			outputs[o].setChannels(poly);
+		}
+		return poly;
+	}
+```
+* Copy:
+```
+		float fs = args.sampleRate;
+		int maxPort = maxPoly();
+
+		float spd = params[SPD].getValue();
+
+		// PARAMETERS (AND IMPLICIT INS)
+#pragma GCC ivdep
+		for(int p = 0; p < maxPort; p++) {
+			float ispd = inputs[ISPD].getPolyVoltage(p) * 0.1f + spd;
+ 
+			// OUT
+			outputs[OUT].setVoltage(ispd, p);
+		}
+```
+* Compile again to have the right names for everything so far.
+* Switch between coding and indirect XML graphics **.svg** until satisfied.
+* Let your professionalism override your enthusiasm.
+* Repeat ...
