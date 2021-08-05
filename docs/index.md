@@ -60,3 +60,9 @@ an interesting F/Q extension to a three parameter F/S/S. Control of the default 
 I think a 1V by 1V square on `SPD` and `SKW` should do it. Try [morph](https://github.com/jackokring/KRTPluginADemo/blob/master/morph.vcv) for this module.
 
 A 5V by 5V modulation square with +6dB ins (20V) gives quite a range.
+
+Utility **v1.10.15**
+---
+
+### W
+a simple module to add or subtract standard 10V gate signals into a chromatic sum. Can turn a drum sequencer into an arpegiator.
