@@ -87,7 +87,7 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 * With some slug change on the `<x>::<control>`.
 * Then it's all [DSP](https://en.wikipedia.org/wiki/Digital_signal_processing).
 
-## Useful
+## Useful (Within scope?)
 ```
 dsp::SchmittTrigger sRst;
 bool trigRst = sRst.process(rescale(rst, 0.1f, 2.f, 0.f, 1.f));
