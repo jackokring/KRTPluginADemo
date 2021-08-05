@@ -66,3 +66,11 @@ Utility **v1.10.15**
 
 ### W
 a simple module to add or subtract standard 10V gate signals into a chromatic sum. Can turn a drum sequencer into an arpegiator.
+
+Sequencing **v1.11.x (NFA - No Fixed Arrival)**
+---
+
+### Y
+a complex module with patterns for global state. I must find out about the `asset::user` object. At the moment there is some complex UI to sort out involving buttons and modes. I've always wondered why drum machines don't even have the extra 8 buttons for triples. Sounds like it would add less than an extra 50 currency units and not too much complexity to the software given **shuffles** div three flexibles.
+
+Yep not transfering patterns globally could be a big thing, but also lack of pattern space too for playing the old stuff, along with the new.
