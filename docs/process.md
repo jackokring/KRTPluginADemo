@@ -72,3 +72,17 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 * Switch between coding and indirect XML graphics **.svg** until satisfied.
 * Let your professionalism override your enthusiasm.
 * Repeat ...
+
+## And
+* You might need some of the:
+```
+        configParam(LAM, -36.f, 0.f, 36.f, "Halflife", " dBs");
+```
+* And some:
+```
+		addInput(createInputCentered<PJ301MPort>(loc(2, 6), module, W::I11));
+
+		addOutput(createOutputCentered<PJ301MPort>(loc(1, 7), module, W::PLUS));
+```
+* With some slug change on the `<x>::<control>`.
+* Then it's all [DSP](https://en.wikipedia.org/wiki/Digital_signal_processing).
