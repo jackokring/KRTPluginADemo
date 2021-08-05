@@ -8,3 +8,5 @@ Keep **ALL** non instrument code such as example patches and large build for mat
 
 You maybe code blind to how you see your module, but yes, I've miss-labelled IO before.
 
+Try not to push code on an empty stomach. At least wait while you're saited before a "dial commit" to "downstream", and yes there should be an unlocking locking mechanism and a "side fart" on the discussion mailer, but this is not of Git today, so ...
+
