@@ -3,6 +3,8 @@ Welcome to the [KRTPluginA](https://library.vcvrack.com/KRTPluginA) Blog Site
 
 Built with the most excellent GitHub pages facility. **Under Construction: Always But Slowly**. Recommended.
 
+More info on [the process]()
+
 And it came to pass that VCV Rack didn't need a full build, which didn't work for me, and now I can make some modules. This plugin brings together some ideas I've had for a while into functioning modules. The public release is [here](https://library.vcvrack.com/KRTPluginA), and as compiling a later test release can be complicated you may have to wait sometimes for the new features.
 
 Enter the Rasin' Detre (RD) for the modules. This might explain a rationale for purpose.
