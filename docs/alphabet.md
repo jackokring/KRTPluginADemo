@@ -1,27 +1,27 @@
 # Latin
-* [A](https://github.com/jackokring/KRTPluginA#a)
+* [A](https://github.com/jackokring/KRTPluginA#a) - 18 dB filter
 * B
 * C
-* [D](https://github.com/jackokring/KRTPluginA#d)
+* [D](https://github.com/jackokring/KRTPluginA#d) - exponetial VCA
 * E
-* [F](https://github.com/jackokring/KRTPluginA#f)
+* [F](https://github.com/jackokring/KRTPluginA#f) - morph filter
 * G
 * H
 * I
 * J
 * K
-* [L](https://github.com/jackokring/KRTPluginA#l)
+* [L](https://github.com/jackokring/KRTPluginA#l) - Latency delay
 * M
 * N
 * O
 * P
 * Q
-* [R](https://github.com/jackokring/KRTPluginA#r)
+* [R](https://github.com/jackokring/KRTPluginA#r) - mixer splitter
 * S
-* [T](https://github.com/jackokring/KRTPluginA#t)
+* [T](https://github.com/jackokring/KRTPluginA#t) - nice turned synchronous delay
 * U
-* [V](https://github.com/jackokring/KRTPluginA#v)
-* [W](https://github.com/jackokring/KRTPluginA#w)
+* [V](https://github.com/jackokring/KRTPluginA#v) - triple VCA
+* [W](https://github.com/jackokring/KRTPluginA#w) - chromatic gate summander
 * X
 * Y
 * Z
@@ -38,7 +38,7 @@
 * ι
 * κ
 * λ
-* [μ](https://github.com/jackokring/KRTPluginA#μ)
+* [μ](https://github.com/jackokring/KRTPluginA#μ) - precise distrotion
 * ν
 * ξ
 * --
@@ -50,7 +50,7 @@
 * φ
 * χ
 * Ψ
-* [Ω](https://github.com/jackokring/KRTPluginA#Ω)
+* [Ω](https://github.com/jackokring/KRTPluginA#Ω) - clock distributer with randomness
 
 # Extras
 * 母鸡 - ?
