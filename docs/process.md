@@ -54,19 +54,19 @@ int maxPoly() {
 ```
 * Copy:
 ```
-		float fs = args.sampleRate;
-		int maxPort = maxPoly();
+	float fs = args.sampleRate;
+	int maxPort = maxPoly();
 
-		float spd = params[SPD].getValue();
+	float spd = params[SPD].getValue();
 
-		// PARAMETERS (AND IMPLICIT INS)
+	// PARAMETERS (AND IMPLICIT INS)
 #pragma GCC ivdep
-		for(int p = 0; p < maxPort; p++) {
-			float ispd = inputs[ISPD].getPolyVoltage(p);
- 
-			// OUT
-			outputs[OUT].setVoltage(ispd, p);
-		}
+	for(int p = 0; p < maxPort; p++) {
+		float ispd = inputs[ISPD].getPolyVoltage(p);
+
+		// OUT
+		outputs[OUT].setVoltage(ispd, p);
+	}
 ```
 * Compile again to have the right names for everything so far.
 * Switch between coding and indirect XML graphics **.svg** until satisfied.
@@ -81,7 +81,6 @@ configParam(LAM, -36.f, 0.f, 36.f, "Halflife", " dBs");
 * And some:
 ```
 addInput(createInputCentered<PJ301MPort>(loc(2, 6), module, W::I11));
-
 addOutput(createOutputCentered<PJ301MPort>(loc(1, 7), module, W::PLUS));
 ```
 * With some slug change on the `<x>::<control>`.
