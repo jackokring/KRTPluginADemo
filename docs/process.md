@@ -15,6 +15,7 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 * Find module of similar HP, LANES and RUNGS. `Save As ...` the graphics. Add a `components` layer. do `5.08 * HP` and set dimensions in `sudo apt got inkscape`.
 * run the `../../yes <X>` script that does not exist but `createmodule` might.
 * Copy the macros:
+
 ```
 //geometry edit
 #define HP 5
@@ -40,6 +41,7 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 * Test compile.
 * Move about the labels, delete (essential?) "contols" `components` layer.
 * Copy:
+
 ```
 	int maxPoly() {
 		int poly = 1;
