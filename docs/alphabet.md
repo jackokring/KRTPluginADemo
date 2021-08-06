@@ -52,7 +52,7 @@
 * Ψ
 * [Ω](https://github.com/jackokring/KRTPluginA#Ω) - clock distributer with randomness
 
-# Extras
+# Extras (on the Peking bejing standards)
 * 母鸡 - ?
 * 计算 - ?
 * 房东 - ?
