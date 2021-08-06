@@ -40,6 +40,7 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 * Test compile.
 * Move about the labels, delete (essential?) "contols" `components` layer.
 * Copy:
+
 ```
 	int maxPoly() {
 		int poly = 1;
@@ -53,8 +54,8 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 		return poly;
 	}
 ```
-
 * Copy:
+
 ```
 		float fs = args.sampleRate;
 		int maxPort = maxPoly();
@@ -77,10 +78,12 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 
 ## And
 * You might need some of the:
+
 ```
         configParam(LAM, -36.f, 0.f, 36.f, "Halflife", " dBs");
 ```
 * And some:
+
 ```
 		addInput(createInputCentered<PJ301MPort>(loc(2, 6), module, W::I11));
 
