@@ -35,13 +35,11 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 //placement macro
 #define loc(x,y) mm2px(Vec(X_SPLIT*(1+2*(x-1)), (HEIGHT*Y_MARGIN)+Y_SPLIT*(1+2*(y-1))))
 ```
-
 * Fill in IO and parameter names.
 * Add controls.
 * Test compile.
 * Move about the labels, delete (essential?) "contols" `components` layer.
 * Copy:
-
 ```
 	int maxPoly() {
 		int poly = 1;
@@ -55,6 +53,7 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 		return poly;
 	}
 ```
+
 * Copy:
 ```
 		float fs = args.sampleRate;
