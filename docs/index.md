@@ -91,6 +91,8 @@ a simple module to add or subtract standard 10V gate signals into a chromatic su
 
 **RD** arps a sequencer to free the imperfect knobing of a scale with nicer settings like Q and well you get the wires a free didn't you?
 
+Try [W](https://github.com/jackokring/KRTPluginADemo/blob/master/W.vcv) for this module.
+
 Sequencing **vTBC (NFA - No Fixed Arrival)**
 ---
 
@@ -100,3 +102,9 @@ a complex module with patterns for global state. I must find out about the `asse
 Yep not transfering patterns globally could be a big thing, but also lack of pattern space too for playing the old stuff, along with the new.
 
 **RD** never had a good party without a rythum. Maybe a nice chill out, but I haven't made a PicoDrum emulator and I won't.
+
+### P
+a spice flange malange. A delay with some all-pass feedback chorus style modulation?
+
+### H
+an organ with some extra sounds?
