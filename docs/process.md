@@ -15,7 +15,6 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 * Find module of similar HP, LANES and RUNGS. `Save As ...` the graphics. Add a `components` layer. do `5.08 * HP` and set dimensions in `sudo apt got inkscape`.
 * run the `../../yes <X>` script that does not exist but `createmodule` might.
 * Copy the macros:
-
 ```
 //geometry edit
 #define HP 5
@@ -40,22 +39,20 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 * Test compile.
 * Move about the labels, delete (essential?) "contols" `components` layer.
 * Copy:
-
 ```
-	int maxPoly() {
-		int poly = 1;
-		for(int i = 0; i < NUM_INPUTS; i++) {
-			int chan = inputs[i].getChannels();
-			if(chan > poly) poly = chan;
-		}
-		for(int o = 0; o < NUM_OUTPUTS; o++) {
-			outputs[o].setChannels(poly);
-		}
-		return poly;
+int maxPoly() {
+	int poly = 1;
+	for(int i = 0; i < NUM_INPUTS; i++) {
+		int chan = inputs[i].getChannels();
+		if(chan > poly) poly = chan;
 	}
+	for(int o = 0; o < NUM_OUTPUTS; o++) {
+		outputs[o].setChannels(poly);
+	}
+	return poly;
+}
 ```
 * Copy:
-
 ```
 		float fs = args.sampleRate;
 		int maxPort = maxPoly();
@@ -65,7 +62,7 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 		// PARAMETERS (AND IMPLICIT INS)
 #pragma GCC ivdep
 		for(int p = 0; p < maxPort; p++) {
-			float ispd = inputs[ISPD].getPolyVoltage(p) * 0.1f + spd;
+			float ispd = inputs[ISPD].getPolyVoltage(p);
  
 			// OUT
 			outputs[OUT].setVoltage(ispd, p);
@@ -78,16 +75,14 @@ Try not to push code on an empty stomach. At least wait while you're saited befo
 
 ## And
 * You might need some of the:
-
 ```
-        configParam(LAM, -36.f, 0.f, 36.f, "Halflife", " dBs");
+configParam(LAM, -36.f, 0.f, 36.f, "Halflife", " dBs");
 ```
 * And some:
-
 ```
-		addInput(createInputCentered<PJ301MPort>(loc(2, 6), module, W::I11));
+addInput(createInputCentered<PJ301MPort>(loc(2, 6), module, W::I11));
 
-		addOutput(createOutputCentered<PJ301MPort>(loc(1, 7), module, W::PLUS));
+addOutput(createOutputCentered<PJ301MPort>(loc(1, 7), module, W::PLUS));
 ```
 * With some slug change on the `<x>::<control>`.
 * Then it's all [DSP](https://en.wikipedia.org/wiki/Digital_signal_processing).
