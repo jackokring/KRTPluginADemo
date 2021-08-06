@@ -9,6 +9,8 @@ And it came to pass that VCV Rack didn't need a full build, which didn't work fo
 
 Enter the Rasin' Detre (**RD**) for the modules. This might explain a rationale for purpose.
 
+An alphabetic list [of modules](alphabet.md) so that I don't reuse letra-labels.
+
 The First 26 HP **v1.6.9**
 ---
 
@@ -81,7 +83,7 @@ A 5V by 5V modulation square with +6dB ins (20V) gives quite a range.
 
 **RD** no sh*t this thing can be nice. I prefere it to `A`. It has some purity of access to unmodulated wants, while showing what can be done without excursion resonance.
 
-Utility **v1.10.15**
+Utility **vTBC**
 ---
 
 ### W
@@ -89,7 +91,7 @@ a simple module to add or subtract standard 10V gate signals into a chromatic su
 
 **RD** arps a sequencer to free the imperfect knobing of a scale with nicer settings like Q and well you get the wires a free didn't you?
 
-Sequencing **v1.11.x (NFA - No Fixed Arrival)**
+Sequencing **vTBC (NFA - No Fixed Arrival)**
 ---
 
 ### Y
