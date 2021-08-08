@@ -97,9 +97,9 @@ Sequencing **vTBC (NFA - No Fixed Arrival)**
 ---
 
 ### Y
-a complex module with patterns for global state. I must find out about the `asset::user` object. At the moment there is some complex UI to sort out involving buttons and modes. I've always wondered why drum machines don't even have the extra 8 buttons for triples. Sounds like it would add less than an extra 50 currency units and not too much complexity to the software given **shuffles** div three flexibles.
+a complex module for gate patterns. I've always wondered why drum machines don't even have the extra 8 buttons for triples. Sounds like it would add less than an extra 50 currency units and not too much complexity to the software given **shuffles** div three flexibles.
 
-Yep not transfering patterns globally could be a big thing, but also lack of pattern space too for playing the old stuff, along with the new.
+Yep, not transfering patterns globally could be a big thing, but also lack of pattern space too for playing the old stuff, along with the new. Seems Rack has a module preset save in the latest version though. Nice.
 
 **RD** never had a good party without a rythum. Maybe a nice chill out, but I haven't made a PicoDrum emulator and I won't.
 
