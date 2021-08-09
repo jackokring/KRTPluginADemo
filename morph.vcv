@@ -30,7 +30,7 @@
         },
         {
           "id": 2,
-          "value": 0.323997021
+          "value": -21.8699894
         },
         {
           "id": 3,
@@ -65,12 +65,12 @@
       "rightModuleId": 5,
       "data": {
         "audio": {
-          "driver": 1,
-          "deviceName": "default",
+          "driver": 4,
+          "deviceName": "system",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
-          "blockSize": 4096
+          "blockSize": 1024
         }
       },
       "pos": [
@@ -188,28 +188,28 @@
     {
       "id": 14,
       "plugin": "KRTPluginA",
-      "version": "1.9.15",
+      "version": "1.11.16",
       "model": "F",
       "params": [
         {
           "id": 0,
-          "value": 0.201999754
+          "value": 0.602000356
         },
         {
           "id": 1,
-          "value": -0.182000458
+          "value": -0.605000138
         },
         {
           "id": 2,
-          "value": 1.45599639
+          "value": -0.356000692
         },
         {
           "id": 3,
-          "value": -1.0
+          "value": -0.963999987
         },
         {
           "id": 4,
-          "value": 0.804000497
+          "value": -1.50000143
         },
         {
           "id": 5,
@@ -231,7 +231,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 1,
@@ -239,11 +239,11 @@
         },
         {
           "id": 2,
-          "value": 2.99799919
+          "value": -2.2940011
         },
         {
           "id": 3,
-          "value": 1.5
+          "value": 2.01300192
         },
         {
           "id": 4,
@@ -265,7 +265,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 1,
@@ -273,11 +273,11 @@
         },
         {
           "id": 2,
-          "value": 0.216999158
+          "value": -0.51200074
         },
         {
           "id": 3,
-          "value": 1.5
+          "value": 1.27500129
         },
         {
           "id": 4,
@@ -293,7 +293,7 @@
     {
       "id": 17,
       "plugin": "KRTPluginA",
-      "version": "1.9.15",
+      "version": "1.11.16",
       "model": "R",
       "params": [
         {
@@ -302,7 +302,7 @@
         },
         {
           "id": 1,
-          "value": 4.81199932
+          "value": 3.44400287
         }
       ],
       "leftModuleId": 14,
@@ -314,7 +314,7 @@
     {
       "id": 18,
       "plugin": "KRTPluginA",
-      "version": "1.9.15",
+      "version": "1.11.16",
       "model": "R",
       "params": [
         {
@@ -323,7 +323,7 @@
         },
         {
           "id": 1,
-          "value": 3.89400101
+          "value": 3.22800231
         }
       ],
       "pos": [
