@@ -93,17 +93,22 @@ a simple module to add or subtract standard 10V gate signals into a chromatic su
 
 Try [W](https://github.com/jackokring/KRTPluginADemo/blob/master/W.vcv) for this module.
 
-Sequencing **vTBC (NFA - No Fixed Arrival)**
+Sequencing **v1.11.16**
 ---
 
 ### Y
 a complex module for gate patterns. I've always wondered why drum machines don't even have the extra 12 buttons for triples. Sounds like it would add less than an extra 50 currency units and not too much complexity to the software given **shuffles** div three flexibles.
 
-Yep, not transfering patterns globally could be a big thing, but also lack of pattern space too for playing the old stuff, along with the new. Seems Rack has a module preset save in the latest version though. Nice.
+Yep, not transfering patterns globally could be a big thing, but also lack of pattern space too for playing the old stuff, along with the new. Seems Rack has a module preset save in the latest version though. Nice, so just saving the current pattern via a right click preset is good.
+
+Also an experiment into controlling the module using `CV/Gate` on the keyboard for easy playing without using the mouse. The plan being to make a useful design with an easy to remember keyboard mapping.
 
 **RD** never had a good party without a rythum. Maybe a nice chill out, but I haven't made a PicoDrum emulator and I won't.
 
 Try [Y](https://github.com/jackokring/KRTPluginADemo/blob/master/Y.vcv) to get your sequence on.
+
+Extras **vTBC (NFA - No Fixed Arrival)**
+---
 
 ### P
 a spice flange malange. A delay with some all-pass feedback chorus style modulation?
