@@ -11,7 +11,7 @@
       "text": "The Y sequencer.",
       "pos": [
         0,
-        1
+        2
       ]
     },
     {
@@ -20,6 +20,7 @@
       "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
+      "leftModuleId": 25,
       "rightModuleId": 5,
       "data": {
         "audio": {
@@ -32,8 +33,8 @@
         }
       },
       "pos": [
-        35,
-        0
+        40,
+        1
       ]
     },
     {
@@ -44,7 +45,7 @@
       "params": [
         {
           "id": 0,
-          "value": -0.0
+          "value": 0.0
         },
         {
           "id": 1,
@@ -60,7 +61,7 @@
         },
         {
           "id": 4,
-          "value": 7.85000467
+          "value": 15.7300024
         },
         {
           "id": 5,
@@ -82,8 +83,8 @@
         "external": 0
       },
       "pos": [
-        45,
-        0
+        50,
+        1
       ]
     },
     {
@@ -114,10 +115,9 @@
         }
       ],
       "leftModuleId": 5,
-      "rightModuleId": 15,
       "pos": [
-        58,
-        0
+        63,
+        1
       ]
     },
     {
@@ -142,13 +142,13 @@
       },
       "pos": [
         16,
-        1
+        2
       ]
     },
     {
       "id": 12,
       "plugin": "KRTPluginA",
-      "version": "1.11.16",
+      "version": "1.12.16",
       "model": "Y",
       "params": [
         {
@@ -297,7 +297,7 @@
         },
         {
           "id": 36,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 37,
@@ -466,7 +466,7 @@
       },
       "pos": [
         24,
-        1
+        2
       ]
     },
     {
@@ -477,31 +477,32 @@
       "params": [
         {
           "id": 0,
-          "value": 0.5
+          "value": 0.0
         },
         {
           "id": 1,
-          "value": 0.5
+          "value": 0.288500011
         },
         {
           "id": 2,
-          "value": 0.5
+          "value": 0.693500042
         },
         {
           "id": 3,
-          "value": 0.5
+          "value": 0.318500012
         }
       ],
-      "leftModuleId": 6,
+      "leftModuleId": 22,
+      "rightModuleId": 24,
       "pos": [
-        68,
-        0
+        24,
+        1
       ]
     },
     {
       "id": 17,
       "plugin": "KRTPluginA",
-      "version": "1.11.16",
+      "version": "1.12.16",
       "model": "Om",
       "params": [
         {
@@ -518,11 +519,11 @@
         }
       ],
       "data": {
-        "save": "LGTB+6TUGVRCCMKPI45P:DCQIEGK@A0.JFBND)3Y>9-I>G+3J@0GOPQ>EKCA6@GL"
+        "save": "PJD=/=FAAK:/76NJUNGA;1EMDJ?S2B0GD?AA;C9YAA5;FODLK?4OD?Q>EKCA6:>@"
       },
       "pos": [
         43,
-        1
+        2
       ]
     },
     {
@@ -559,7 +560,7 @@
       "rightModuleId": 19,
       "pos": [
         0,
-        0
+        1
       ]
     },
     {
@@ -597,7 +598,7 @@
       "rightModuleId": 20,
       "pos": [
         6,
-        0
+        1
       ]
     },
     {
@@ -620,6 +621,7 @@
         }
       ],
       "leftModuleId": 19,
+      "rightModuleId": 21,
       "data": {
         "mode": 0,
         "pitch_value1": 10.0,
@@ -638,7 +640,155 @@
       },
       "pos": [
         12,
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "plugin": "KRTPluginA",
+      "version": "1.12.16",
+      "model": "O",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -1.5
+        },
+        {
+          "id": 2,
+          "value": -2.0
+        },
+        {
+          "id": 3,
+          "value": 70.2999954
+        },
+        {
+          "id": 4,
+          "value": 66.400032
+        },
+        {
+          "id": 5,
+          "value": 62.0500488
+        }
+      ],
+      "leftModuleId": 20,
+      "rightModuleId": 22,
+      "pos": [
+        15,
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "plugin": "KRTPluginA",
+      "version": "1.12.16",
+      "model": "F",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.41600084
+        },
+        {
+          "id": 3,
+          "value": -1.0
+        },
+        {
+          "id": 4,
+          "value": 0.366000116
+        },
+        {
+          "id": 5,
+          "value": -1.0
+        }
+      ],
+      "leftModuleId": 21,
+      "rightModuleId": 15,
+      "pos": [
+        19,
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        }
+      ],
+      "pos": [
+        14,
         0
+      ]
+    },
+    {
+      "id": 24,
+      "plugin": "KRTPluginA",
+      "version": "1.12.16",
+      "model": "R",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.74599934
+        }
+      ],
+      "leftModuleId": 15,
+      "rightModuleId": 25,
+      "pos": [
+        32,
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCA",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 24,
+      "rightModuleId": 4,
+      "pos": [
+        35,
+        1
       ]
     }
   ],
@@ -674,22 +824,6 @@
       "inputModuleId": 17,
       "inputId": 0,
       "color": "#c91847"
-    },
-    {
-      "id": 55,
-      "outputModuleId": 9,
-      "outputId": 0,
-      "inputModuleId": 12,
-      "inputId": 0,
-      "color": "#0986ad"
-    },
-    {
-      "id": 56,
-      "outputModuleId": 9,
-      "outputId": 1,
-      "inputModuleId": 12,
-      "inputId": 1,
-      "color": "#0986ad"
     },
     {
       "id": 47,
@@ -740,14 +874,6 @@
       "color": "#c91847"
     },
     {
-      "id": 61,
-      "outputModuleId": 6,
-      "outputId": 1,
-      "inputModuleId": 5,
-      "inputId": 1,
-      "color": "#0c8e15"
-    },
-    {
       "id": 62,
       "outputModuleId": 17,
       "outputId": 5,
@@ -790,10 +916,82 @@
     {
       "id": 39,
       "outputModuleId": 6,
-      "outputId": 3,
+      "outputId": 4,
       "inputModuleId": 5,
       "inputId": 0,
       "color": "#c91847"
+    },
+    {
+      "id": 55,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 21,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 67,
+      "outputModuleId": 21,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 6,
+      "color": "#0986ad"
+    },
+    {
+      "id": 69,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 71,
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 15,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 70,
+      "outputModuleId": 24,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 72,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 24,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 68,
+      "outputModuleId": 22,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 73,
+      "outputModuleId": 25,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 74,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 3,
+      "color": "#c9b70e"
     }
   ]
 }
