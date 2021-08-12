@@ -70,7 +70,7 @@
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
-          "blockSize": 1024
+          "blockSize": 2048
         }
       },
       "pos": [
@@ -188,28 +188,28 @@
     {
       "id": 14,
       "plugin": "KRTPluginA",
-      "version": "1.11.16",
+      "version": "1.12.18",
       "model": "F",
       "params": [
         {
           "id": 0,
-          "value": 0.602000356
+          "value": -1.0
         },
         {
           "id": 1,
-          "value": -0.605000138
+          "value": -0.627999723
         },
         {
           "id": 2,
-          "value": -0.356000692
+          "value": 0.0
         },
         {
           "id": 3,
-          "value": -0.963999987
+          "value": -1.0
         },
         {
           "id": 4,
-          "value": -1.50000143
+          "value": 3.48599958
         },
         {
           "id": 5,
@@ -293,7 +293,7 @@
     {
       "id": 17,
       "plugin": "KRTPluginA",
-      "version": "1.11.16",
+      "version": "1.12.18",
       "model": "R",
       "params": [
         {
@@ -302,7 +302,7 @@
         },
         {
           "id": 1,
-          "value": 3.44400287
+          "value": 6.0
         }
       ],
       "leftModuleId": 14,
@@ -314,7 +314,7 @@
     {
       "id": 18,
       "plugin": "KRTPluginA",
-      "version": "1.11.16",
+      "version": "1.12.18",
       "model": "R",
       "params": [
         {
@@ -323,7 +323,7 @@
         },
         {
           "id": 1,
-          "value": 3.22800231
+          "value": 6.0
         }
       ],
       "pos": [

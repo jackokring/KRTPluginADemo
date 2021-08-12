@@ -45,7 +45,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": -0.0
         },
         {
           "id": 1,
@@ -148,7 +148,7 @@
     {
       "id": 12,
       "plugin": "KRTPluginA",
-      "version": "1.12.16",
+      "version": "1.12.18",
       "model": "Y",
       "params": [
         {
@@ -502,7 +502,7 @@
     {
       "id": 17,
       "plugin": "KRTPluginA",
-      "version": "1.12.16",
+      "version": "1.12.18",
       "model": "Om",
       "params": [
         {
@@ -646,7 +646,7 @@
     {
       "id": 21,
       "plugin": "KRTPluginA",
-      "version": "1.12.16",
+      "version": "1.12.18",
       "model": "O",
       "params": [
         {
@@ -684,7 +684,7 @@
     {
       "id": 22,
       "plugin": "KRTPluginA",
-      "version": "1.12.16",
+      "version": "1.12.18",
       "model": "F",
       "params": [
         {
@@ -722,7 +722,7 @@
     {
       "id": 24,
       "plugin": "KRTPluginA",
-      "version": "1.12.16",
+      "version": "1.12.18",
       "model": "R",
       "params": [
         {
@@ -942,28 +942,20 @@
       "color": "#c91847"
     },
     {
-      "id": 68,
-      "outputModuleId": 22,
-      "outputId": 0,
-      "inputModuleId": 25,
-      "inputId": 5,
-      "color": "#c91847"
-    },
-    {
-      "id": 73,
-      "outputModuleId": 25,
-      "outputId": 1,
-      "inputModuleId": 6,
-      "inputId": 4,
-      "color": "#0986ad"
-    },
-    {
       "id": 74,
       "outputModuleId": 15,
       "outputId": 0,
       "inputModuleId": 25,
       "inputId": 3,
       "color": "#c9b70e"
+    },
+    {
+      "id": 73,
+      "outputModuleId": 22,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 4,
+      "color": "#0986ad"
     }
   ]
 }

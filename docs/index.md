@@ -107,13 +107,15 @@ Also an experiment into controlling the module using `CV/Gate` on the keyboard f
 
 Try [Y](https://github.com/jackokring/KRTPluginADemo/blob/master/Y.vcv) to get your sequence on.
 
-Oscillator **v1.12.16**
+Oscillator **v1.12.18**
 ---
 
 ### O
 a triple feedback oscillator of the skew parabolic saw wave variety. The algorithm is quite simple.
 
 **RD** a good oscillator is always a good oscillator.
+
+Try [parabolic](https://github.com/jackokring/KRTPluginADemo/blob/master/parabolic.vcv)
 
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
