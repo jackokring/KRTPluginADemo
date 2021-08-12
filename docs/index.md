@@ -111,7 +111,7 @@ Oscillator **v1.12.18**
 ---
 
 ### O
-a triple feedback oscillator of the skew parabolic saw wave variety. The algorithm is quite simple. Inspired by the **Everyday Electronics** weird sound effects generator from somewhere around the 70s. The whole integrated into **Wireless World** with an **ETI** page or two as the offshored consumer detatchment of `circuit` from the people became a marketing control own goal, as they would see it later, as the physics brought upon the exponential of climate. Top Everest or even a K too. To Giro ah-man.
+a triple feedback oscillator of the skew parabolic saw wave variety. The algorithm is quite simple. Inspired by the **Everyday Electronics** weird sound effects generator from somewhere around the 70s. The whole integrated into **Wireless World** with an **ETI** page or two as the offshored consumer detatchment of `circuit` from the people became a marketing control own goal, as they would see it later, as the physics brought upon the exponential of climate. Top Everest or even a K too. To Giro ah-man. Hull and Rug-A? Hence a Labowski.
 
 **RD** a good oscillator is always a good oscillator.
 
