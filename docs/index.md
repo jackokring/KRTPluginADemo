@@ -117,6 +117,22 @@ a triple feedback oscillator of the skew parabolic saw wave variety. The algorit
 
 Try [parabolic](https://github.com/jackokring/KRTPluginADemo/blob/master/parabolic.vcv)
 
+Spice for Time **v1.14.18**
+---
+
+### S
+some kind of MIDI-CV to 10V divided by 64 sychronization scratch thing. Might need a slight update to `Y` to accept it.
+
+**RD** external sync and some accident of availability allows for a beat stutter replacement of an unknown bpm on the initial and so why not all beats?
+
+### E
+a simple envelope AR. Percusive and with its own modulation control for those filter cut-offs.
+
+**RD** eliminates space of a VCA and an envelope generator often.
+
+### Various optimizations
+so why not? Sounds good with no noticable audio artifacting.
+
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
 
