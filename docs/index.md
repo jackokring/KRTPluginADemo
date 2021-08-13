@@ -115,7 +115,7 @@ a triple feedback oscillator of the skew parabolic saw wave variety. The algorit
 
 **RD** a good oscillator is always a good oscillator.
 
-Try [parabolic](https://github.com/jackokring/KRTPluginADemo/blob/master/parabolic.vcv)
+Try [parabolic](https://github.com/jackokring/KRTPluginADemo/blob/master/parabolic.vcv).
 
 Spice for Time **v1.14.19**
 ---
@@ -130,7 +130,7 @@ a simple envelope AR. Percusive and with its own modulation control for those fi
 
 **RD** eliminates space of a VCA and an envelope generator often.
 
-Try [SE](https://github.com/jackokring/KRTPluginADemo/blob/master/SE.vcv)
+Try [SE](https://github.com/jackokring/KRTPluginADemo/blob/master/SE.vcv), it's quite detuned but ...
 
 ### Various optimizations
 so why not? Sounds good with no noticable audio artifacting.
