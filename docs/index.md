@@ -79,7 +79,7 @@ an interesting F/Q extension to a three parameter F/S/S. Control of the default 
 
 I think a 1V by 1V square on `SPD` and `SKW` should do it. Try [morph](https://github.com/jackokring/KRTPluginADemo/blob/master/morph.vcv) for this module.
 
-A 5V by 5V modulation square with +6dB ins (20V) gives quite a range.
+A 5V by 5V modulation square with +6dB ins (20V) gives quite a range. The filter is now fixed, and the wise will notice the higher damped filter pole pair ordering comes second in the series, so that the hard clamping smooths a little `DRV` on high Q in the first pole pair. Origionally this was just basic noise control principals, but is better.
 
 **RD** no sh*t this thing can be nice. I prefere it to `A`. It has some purity of access to unmodulated wants, while showing what can be done without excursion resonance.
 
@@ -129,6 +129,8 @@ some kind of MIDI-CV to 10V divided by 64 sychronization scratch thing. Might ne
 a simple envelope AR. Percusive and with its own modulation control for those filter cut-offs.
 
 **RD** eliminates space of a VCA and an envelope generator often.
+
+Try [SE](https://github.com/jackokring/KRTPluginADemo/blob/master/SE.vcv)
 
 ### Various optimizations
 so why not? Sounds good with no noticable audio artifacting.

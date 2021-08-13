@@ -10,10 +10,10 @@
 * I
 * J
 * K
-* [L](https://github.com/jackokring/KRTPluginA#l) - Latency delay
+* [L](https://github.com/jackokring/KRTPluginA#l) - latency delay
 * M
 * N
-* [O](https://github.com/jackokring/KRTPluginA#o) - Parabolic oscillator
+* [O](https://github.com/jackokring/KRTPluginA#o) - parabolic oscillator
 * P
 * Q
 * [R](https://github.com/jackokring/KRTPluginA#r) - mixer splitter
