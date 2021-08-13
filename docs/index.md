@@ -117,7 +117,7 @@ a triple feedback oscillator of the skew parabolic saw wave variety. The algorit
 
 Try [parabolic](https://github.com/jackokring/KRTPluginADemo/blob/master/parabolic.vcv)
 
-Spice for Time **v1.14.18**
+Spice for Time **v1.14.19**
 ---
 
 ### S

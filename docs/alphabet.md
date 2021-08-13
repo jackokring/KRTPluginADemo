@@ -3,7 +3,7 @@
 * B
 * C
 * [D](https://github.com/jackokring/KRTPluginA#d) - exponetial VCA
-* E
+* [E](https://github.com/jackokring/KRTPluginA#e) - envelope VCA
 * [F](https://github.com/jackokring/KRTPluginA#f) - morph filter
 * G
 * H
@@ -17,7 +17,7 @@
 * P
 * Q
 * [R](https://github.com/jackokring/KRTPluginA#r) - mixer splitter
-* S
+* [S](https://github.com/jackokring/KRTPluginA#s) - MIDI to CV LFO
 * [T](https://github.com/jackokring/KRTPluginA#t) - nice turned synchronous delay
 * U
 * [V](https://github.com/jackokring/KRTPluginA#v) - triple VCA
