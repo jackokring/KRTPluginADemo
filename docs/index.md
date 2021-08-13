@@ -121,7 +121,7 @@ Spice for Time **v1.14.19**
 ---
 
 ### S
-some kind of MIDI-CV to 10V divided by 64 sychronization scratch thing. Might need a slight update to `Y` to accept it.
+some kind of MIDI-CV to 10V divided by 64 sychronization scratch thing. Added a slight update `JAZZ` input to `Y` to accept it. Make sure `Y` is `RST` to sync.
 
 **RD** external sync and some accident of availability allows for a beat stutter replacement of an unknown bpm on the initial and so why not all beats?
 
