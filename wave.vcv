@@ -8,7 +8,7 @@
       "model": "Notes",
       "params": [],
       "rightModuleId": 9,
-      "text": "As you can see, the Mu is a crispy lit potato on high frequency transients. Some precise distortion there. You might need a post filter, to kill the highs.\n\nTry all six outputs on the Mu and play with lambda. Change the input wave shapes.",
+      "text": "X wave folder test patch.",
       "pos": [
         0,
         1
@@ -49,9 +49,9 @@
           "value": 0.0
         }
       ],
-      "rightModuleId": 4,
+      "rightModuleId": 15,
       "pos": [
-        25,
+        0,
         0
       ]
     },
@@ -61,7 +61,6 @@
       "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
-      "leftModuleId": 3,
       "rightModuleId": 5,
       "data": {
         "audio": {
@@ -86,7 +85,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": -0.0
         },
         {
           "id": 1,
@@ -110,7 +109,7 @@
         },
         {
           "id": 6,
-          "value": 3.83999896
+          "value": 0.599999547
         },
         {
           "id": 7,
@@ -148,7 +147,7 @@
         },
         {
           "id": 3,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 4,
@@ -186,105 +185,6 @@
       ]
     },
     {
-      "id": 11,
-      "plugin": "KRTPluginA",
-      "version": "1.14.19",
-      "model": "Mu",
-      "params": [
-        {
-          "id": 0,
-          "value": 0.584999323
-        },
-        {
-          "id": 1,
-          "value": -0.487999916
-        },
-        {
-          "id": 2,
-          "value": -4.59001112
-        },
-        {
-          "id": 3,
-          "value": 3.70799494
-        },
-        {
-          "id": 4,
-          "value": 0.0
-        },
-        {
-          "id": 5,
-          "value": 0.0
-        }
-      ],
-      "leftModuleId": 13,
-      "pos": [
-        17,
-        0
-      ]
-    },
-    {
-      "id": 13,
-      "plugin": "KRTPluginA",
-      "version": "1.14.19",
-      "model": "R",
-      "params": [
-        {
-          "id": 0,
-          "value": 0.0
-        },
-        {
-          "id": 1,
-          "value": 3.04199839
-        }
-      ],
-      "rightModuleId": 11,
-      "pos": [
-        14,
-        0
-      ]
-    },
-    {
-      "id": 14,
-      "plugin": "Fundamental",
-      "version": "1.4.0",
-      "model": "VCO",
-      "params": [
-        {
-          "id": 0,
-          "value": 1.0
-        },
-        {
-          "id": 1,
-          "value": 1.0
-        },
-        {
-          "id": 2,
-          "value": -14.9999914
-        },
-        {
-          "id": 3,
-          "value": 0.0
-        },
-        {
-          "id": 4,
-          "value": 0.0
-        },
-        {
-          "id": 5,
-          "value": 0.5
-        },
-        {
-          "id": 6,
-          "value": 0.0
-        }
-      ],
-      "rightModuleId": 15,
-      "pos": [
-        26,
-        1
-      ]
-    },
-    {
       "id": 15,
       "plugin": "Fundamental",
       "version": "1.4.0",
@@ -292,7 +192,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 1,
@@ -300,7 +200,7 @@
         },
         {
           "id": 2,
-          "value": 4.02399921
+          "value": -0.296000361
         },
         {
           "id": 3,
@@ -319,10 +219,38 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 14,
+      "leftModuleId": 3,
       "pos": [
-        36,
-        1
+        10,
+        0
+      ]
+    },
+    {
+      "id": 16,
+      "plugin": "KRTPluginA",
+      "version": "1.15.19",
+      "model": "X",
+      "params": [
+        {
+          "id": 0,
+          "value": 100.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 3.06799889
+        },
+        {
+          "id": 3,
+          "value": 100.0
+        }
+      ],
+      "pos": [
+        22,
+        0
       ]
     }
   ],
@@ -334,86 +262,6 @@
       "inputModuleId": 3,
       "inputId": 0,
       "color": "#0986ad"
-    },
-    {
-      "id": 10,
-      "outputModuleId": 6,
-      "outputId": 1,
-      "inputModuleId": 5,
-      "inputId": 0,
-      "color": "#c91847"
-    },
-    {
-      "id": 11,
-      "outputModuleId": 6,
-      "outputId": 2,
-      "inputModuleId": 5,
-      "inputId": 1,
-      "color": "#0986ad"
-    },
-    {
-      "id": 19,
-      "outputModuleId": 9,
-      "outputId": 0,
-      "inputModuleId": 14,
-      "inputId": 0,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 25,
-      "outputModuleId": 9,
-      "outputId": 0,
-      "inputModuleId": 11,
-      "inputId": 1,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 31,
-      "outputModuleId": 13,
-      "outputId": 0,
-      "inputModuleId": 11,
-      "inputId": 2,
-      "color": "#0986ad"
-    },
-    {
-      "id": 34,
-      "outputModuleId": 15,
-      "outputId": 1,
-      "inputModuleId": 3,
-      "inputId": 3,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 33,
-      "outputModuleId": 15,
-      "outputId": 2,
-      "inputModuleId": 14,
-      "inputId": 3,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 17,
-      "outputModuleId": 3,
-      "outputId": 3,
-      "inputModuleId": 6,
-      "inputId": 2,
-      "color": "#c91847"
-    },
-    {
-      "id": 30,
-      "outputModuleId": 14,
-      "outputId": 3,
-      "inputModuleId": 13,
-      "inputId": 0,
-      "color": "#c91847"
-    },
-    {
-      "id": 9,
-      "outputModuleId": 3,
-      "outputId": 1,
-      "inputModuleId": 11,
-      "inputId": 3,
-      "color": "#0c8e15"
     },
     {
       "id": 5,
@@ -432,12 +280,52 @@
       "color": "#0c8e15"
     },
     {
-      "id": 35,
-      "outputModuleId": 11,
-      "outputId": 5,
+      "id": 37,
+      "outputModuleId": 16,
+      "outputId": 0,
       "inputModuleId": 6,
       "inputId": 1,
-      "color": "#0c8e15"
+      "color": "#c91847"
+    },
+    {
+      "id": 38,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 17,
+      "outputModuleId": 3,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 39,
+      "outputModuleId": 3,
+      "outputId": 2,
+      "inputModuleId": 6,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 10,
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 11,
+      "outputModuleId": 6,
+      "outputId": 3,
+      "inputModuleId": 5,
+      "inputId": 1,
+      "color": "#0986ad"
     }
   ]
 }

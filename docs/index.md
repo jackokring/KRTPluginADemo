@@ -117,7 +117,7 @@ a triple feedback oscillator of the skew parabolic saw wave variety. The algorit
 
 Try [parabolic](https://github.com/jackokring/KRTPluginADemo/blob/master/parabolic.vcv).
 
-Spice for Time **v1.14.19**
+Spice for Time **v1.15.19**
 ---
 
 ### S
@@ -134,6 +134,11 @@ Try [SE](https://github.com/jackokring/KRTPluginADemo/blob/master/SE.vcv), it's 
 
 ### Various optimizations
 so why not? Sounds good with no noticable audio artifacting.
+
+### X
+an oversampled wave floder with a few additional controls.
+
+**RD** an oversampled design just has to be done.
 
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---

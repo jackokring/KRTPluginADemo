@@ -22,7 +22,7 @@
 * U
 * [V](https://github.com/jackokring/KRTPluginA#v) - triple VCA
 * [W](https://github.com/jackokring/KRTPluginA#w) - chromatic gate summander
-* X
+* [X](https://github.com/jackokring/KRTPluginA#x) - wave folder
 * [Y](https://github.com/jackokring/KRTPluginA#y) - gate sequencer
 * Z
 
