@@ -140,6 +140,14 @@ an oversampled wave floder with a few additional controls.
 
 **RD** an oversampled design just has to be done.
 
+Thinking of a Number
+---
+
+### M
+the first rule of modulation in the land of Fourier-Nyquist club is pre-emphisis, and de-emphisis noramalization. A normal default to RIAA sounds occasionally useful on not buttering the diamond with vinyl.
+
+**RD** hot audio-logical zones and 
+
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
 

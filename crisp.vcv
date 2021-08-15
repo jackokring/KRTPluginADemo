@@ -188,24 +188,24 @@
     {
       "id": 11,
       "plugin": "KRTPluginA",
-      "version": "1.14.19",
+      "version": "1.15.19",
       "model": "Mu",
       "params": [
         {
           "id": 0,
-          "value": 0.584999323
+          "value": 0.0
         },
         {
           "id": 1,
-          "value": -0.487999916
+          "value": 2.35599828
         },
         {
           "id": 2,
-          "value": -4.59001112
+          "value": -5.99399805
         },
         {
           "id": 3,
-          "value": 3.70799494
+          "value": 2.55599642
         },
         {
           "id": 4,
@@ -225,7 +225,7 @@
     {
       "id": 13,
       "plugin": "KRTPluginA",
-      "version": "1.14.19",
+      "version": "1.15.19",
       "model": "R",
       "params": [
         {
@@ -434,7 +434,7 @@
     {
       "id": 35,
       "outputModuleId": 11,
-      "outputId": 5,
+      "outputId": 4,
       "inputModuleId": 6,
       "inputId": 1,
       "color": "#0c8e15"
