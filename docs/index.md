@@ -140,13 +140,13 @@ an oversampled wave floder with a few additional controls.
 
 **RD** an oversampled design just has to be done.
 
-Thinking of a Number
+Thinking of a Number **v1.18.20**
 ---
 
 ### M
-the first rule of modulation in the land of Fourier-Nyquist Non-linear club is pre-emphisis, and de-emphisis noramalization. A normal default to RIAA sounds occasionally useful on not buttering the diamond with vinyl.
+the first rule of modulation in the land of `Fourier-Nyquist Non-linear Club (FNNC)` is pre-emphisis, and de-emphisis noramalization. A normal default to RIAA sounds occasionally useful on not buttering the diamond with vinyl.
 
-**RD** hot audio-logical zones and 
+**RD** hot audio-logical zones and the gradient deviation rate is controlled. This reduces higher harmonics. The post amplification may reamplify the fundementals, but the harmonic production of higher frequencies is less.
 
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
