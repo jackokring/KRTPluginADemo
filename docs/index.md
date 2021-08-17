@@ -148,6 +148,11 @@ the first rule of modulation in the land of `Fourier-Nyquist Non-linear Club (FN
 
 **RD** hot audio-logical zones and the gradient deviation rate is controlled. This reduces higher harmonics. The post amplification may reamplify the fundementals, but the harmonic production of higher frequencies is less.
 
+### Something Esoteric or a Little Strange
+I'm in the thought zone. I wonder what might come up. For module 17 something a little weird would be nice. Not too weird, and I'm not sure if it would be control or sound as the focus.
+
+
+
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
 
