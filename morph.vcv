@@ -110,7 +110,7 @@
         },
         {
           "id": 6,
-          "value": 3.83999896
+          "value": 0.0
         },
         {
           "id": 7,
@@ -188,20 +188,20 @@
     {
       "id": 14,
       "plugin": "KRTPluginA",
-      "version": "1.12.18",
+      "version": "1.18.20",
       "model": "F",
       "params": [
         {
           "id": 0,
-          "value": -1.0
+          "value": 1.0
         },
         {
           "id": 1,
-          "value": -0.627999723
+          "value": 1.0
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 1.09199929
         },
         {
           "id": 3,
@@ -209,7 +209,7 @@
         },
         {
           "id": 4,
-          "value": 3.48599958
+          "value": 1.19999993
         },
         {
           "id": 5,
@@ -293,7 +293,7 @@
     {
       "id": 17,
       "plugin": "KRTPluginA",
-      "version": "1.12.18",
+      "version": "1.18.20",
       "model": "R",
       "params": [
         {
@@ -302,7 +302,7 @@
         },
         {
           "id": 1,
-          "value": 6.0
+          "value": 3.53400135
         }
       ],
       "leftModuleId": 14,
@@ -314,7 +314,7 @@
     {
       "id": 18,
       "plugin": "KRTPluginA",
-      "version": "1.12.18",
+      "version": "1.18.20",
       "model": "R",
       "params": [
         {
@@ -323,7 +323,7 @@
         },
         {
           "id": 1,
-          "value": 6.0
+          "value": 3.82199931
         }
       ],
       "pos": [

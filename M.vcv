@@ -1,0 +1,275 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 2,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 9,
+      "text": "The M emphisis filter.",
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 5,
+      "data": {
+        "audio": {
+          "driver": 4,
+          "deviceName": "system",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 2048
+        }
+      },
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": -0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 11.4250021
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.28999972
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4,
+      "rightModuleId": 6,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 6,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.41421354
+        }
+      ],
+      "leftModuleId": 5,
+      "pos": [
+        63,
+        0
+      ]
+    },
+    {
+      "id": 9,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "leftModuleId": 2,
+      "data": {
+        "channels": 1,
+        "polyMode": 0,
+        "clockDivision": 24,
+        "lastPitch": 8192,
+        "lastMod": 0,
+        "midi": {
+          "driver": -11,
+          "deviceName": "QWERTY keyboard (US)",
+          "channel": -1
+        }
+      },
+      "pos": [
+        16,
+        1
+      ]
+    },
+    {
+      "id": 26,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -19.3319931
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 27,
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 27,
+      "plugin": "KRTPluginA",
+      "version": "1.18.20",
+      "model": "M",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 20.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 26,
+      "pos": [
+        10,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 42,
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 43,
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 39,
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 75,
+      "outputModuleId": 26,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 78,
+      "outputModuleId": 6,
+      "outputId": 2,
+      "inputModuleId": 5,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 77,
+      "outputModuleId": 27,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 79,
+      "outputModuleId": 26,
+      "outputId": 1,
+      "inputModuleId": 27,
+      "inputId": 2,
+      "color": "#c91847"
+    }
+  ]
+}

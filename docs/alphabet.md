@@ -11,7 +11,7 @@
 * J
 * K
 * [L](https://github.com/jackokring/KRTPluginA#l) - latency delay
-* M
+* [M](https://github.com/jackokring/KRTPluginA#m) - emphisis filter
 * N
 * [O](https://github.com/jackokring/KRTPluginA#o) - parabolic oscillator
 * P
