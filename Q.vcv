@@ -8,7 +8,7 @@
       "model": "Notes",
       "params": [],
       "rightModuleId": 9,
-      "text": "The M emphisis filter.",
+      "text": "The Q quantum gravimitator.",
       "pos": [
         0,
         1
@@ -144,10 +144,10 @@
       ]
     },
     {
-      "id": 27,
+      "id": 29,
       "plugin": "KRTPluginA",
       "version": "1.18.20",
-      "model": "M",
+      "model": "Q",
       "params": [
         {
           "id": 0,
@@ -155,7 +155,7 @@
         },
         {
           "id": 1,
-          "value": 20.0
+          "value": 0.0
         },
         {
           "id": 2,
@@ -163,37 +163,59 @@
         },
         {
           "id": 3,
-          "value": -20.0
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
         }
       ],
-      "leftModuleId": 28,
       "pos": [
-        10,
+        15,
         0
       ]
     },
     {
-      "id": 28,
-      "plugin": "Befaco",
-      "version": "1.1.1",
-      "model": "EvenVCO",
+      "id": 30,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
       "params": [
         {
           "id": 0,
-          "value": -2.0
+          "value": 1.0
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 2,
           "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
         }
       ],
-      "rightModuleId": 27,
       "pos": [
-        2,
+        1,
         0
       ]
     }
@@ -232,20 +254,20 @@
       "color": "#0c8e15"
     },
     {
-      "id": 83,
-      "outputModuleId": 28,
-      "outputId": 1,
-      "inputModuleId": 27,
-      "inputId": 3,
-      "color": "#0986ad"
-    },
-    {
-      "id": 77,
-      "outputModuleId": 27,
-      "outputId": 1,
+      "id": 84,
+      "outputModuleId": 29,
+      "outputId": 0,
       "inputModuleId": 6,
       "inputId": 1,
-      "color": "#0c8e15"
+      "color": "#c91847"
+    },
+    {
+      "id": 85,
+      "outputModuleId": 30,
+      "outputId": 2,
+      "inputModuleId": 29,
+      "inputId": 0,
+      "color": "#0986ad"
     }
   ]
 }
