@@ -151,6 +151,7 @@ the first rule of modulation in the land of `Fourier-Nyquist Non-linear Club (FN
 ### Something Esoteric or a Little Strange
 I'm in the thought zone. I wonder what might come up. For module 17 something a little weird would be nice. Not too weird, and I'm not sure if it would be control or sound as the focus.
 
+### Q
 
 
 Extras **vTBC (NFA - No Fixed Arrival)**

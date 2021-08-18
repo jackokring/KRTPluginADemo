@@ -15,7 +15,7 @@
 * N
 * [O](https://github.com/jackokring/KRTPluginA#o) - parabolic oscillator
 * P
-* Q
+* [Q](https://github.com/jackokring/KRTPluginA#q) - ?
 * [R](https://github.com/jackokring/KRTPluginA#r) - mixer splitter
 * [S](https://github.com/jackokring/KRTPluginA#s) - MIDI to CV LFO
 * [T](https://github.com/jackokring/KRTPluginA#t) - nice turned synchronous delay
