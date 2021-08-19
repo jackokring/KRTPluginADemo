@@ -156,6 +156,11 @@ a little physical modelling effect.
 
 **RD** why not?
 
+### C
+a three channel attenuverter (with gain) and each having a simple low-pass pole. A sum output is also available for mixer use. A chain input is also provided for bigger mix channel combinations.
+
+**RD** a mixer sixer was just an obvious use of such a module as the 18th.
+
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
 

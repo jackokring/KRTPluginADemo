@@ -1,7 +1,7 @@
 # Latin
 * [A](https://github.com/jackokring/KRTPluginA#a) - 18 dB filter
 * B
-* C
+* [C](https://github.com/jackokring/KRTPluginA#c) - mixer sixer
 * [D](https://github.com/jackokring/KRTPluginA#d) - exponetial VCA
 * [E](https://github.com/jackokring/KRTPluginA#e) - envelope VCA
 * [F](https://github.com/jackokring/KRTPluginA#f) - morph filter
