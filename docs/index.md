@@ -161,6 +161,17 @@ a three channel attenuverter (with gain) and each having a simple low-pass pole.
 
 **RD** a mixer sixer was just an obvious use of such a module as the 18th.
 
+Pitching a Perfect **v1.20.21**
+---
+
+### U
+a qunatizer sample and hold. Combining the function of a quantizer and sample and hold for CV pattern generation.
+
+**RD** seems sample and hold could do with some quantization.
+
+### B
+
+
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
 
