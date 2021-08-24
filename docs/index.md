@@ -170,7 +170,9 @@ a qunatizer sample and hold. Combining the function of a quantizer and sample an
 **RD** seems sample and hold could do with some quantization.
 
 ### B
+a cross bar router with functions on the grid. Seems changing some of the patch is good for progressive music.
 
+**RD** performance and to not include something other than addition as the cross function seems a bit of a waste.
 
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
