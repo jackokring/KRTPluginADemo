@@ -1,6 +1,6 @@
 # Latin
 * [A](https://github.com/jackokring/KRTPluginA#a) - 18 dB filter
-* B
+* [B](https://github.com/jackokring/KRTPluginA#b) - switch
 * [C](https://github.com/jackokring/KRTPluginA#c) - mixer sixer
 * [D](https://github.com/jackokring/KRTPluginA#d) - exponetial VCA
 * [E](https://github.com/jackokring/KRTPluginA#e) - envelope VCA
@@ -19,7 +19,7 @@
 * [R](https://github.com/jackokring/KRTPluginA#r) - mixer splitter
 * [S](https://github.com/jackokring/KRTPluginA#s) - MIDI to CV LFO
 * [T](https://github.com/jackokring/KRTPluginA#t) - nice turned synchronous delay
-* U
+* [U](https://github.com/jackokring/KRTPluginA#u) - sample and hold quantizer
 * [V](https://github.com/jackokring/KRTPluginA#v) - triple VCA
 * [W](https://github.com/jackokring/KRTPluginA#w) - chromatic gate summander
 * [X](https://github.com/jackokring/KRTPluginA#x) - wave folder
