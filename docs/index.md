@@ -174,10 +174,13 @@ a cross bar router with functions on the grid. Seems changing some of the patch 
 
 **RD** performance and to not include something other than addition as the cross function seems a bit of a waste.
 
-Something for the Weekend **v1.22.21**
+Something for the Weekend **v1.22.22**
 ---
 
 ### J
+an all-pass filter. For some phaser classic sounds.
+
+**RD** should be fun.
 
 ### K
 

@@ -8,7 +8,7 @@
 * G
 * H
 * I
-* J
+* [J](https://github.com/jackokring/KRTPluginA#j) - all-pass filter
 * K
 * [L](https://github.com/jackokring/KRTPluginA#l) - latency delay
 * [M](https://github.com/jackokring/KRTPluginA#m) - emphisis filter
