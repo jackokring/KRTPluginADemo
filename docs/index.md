@@ -183,7 +183,7 @@ an all-pass filter. For some phaser classic sounds.
 **RD** should be fun.
 
 ### K
-
+oooh, what to do on the catch-22?
 
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
