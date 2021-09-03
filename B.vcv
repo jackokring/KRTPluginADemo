@@ -8,7 +8,7 @@
       "model": "Notes",
       "params": [],
       "rightModuleId": 9,
-      "text": "B for routing. And J for an expanded phaser kind of thing.",
+      "text": "B for routing. And J for an expanded phaser kind of thing. And then K is a phase modulation VCO.",
       "pos": [
         0,
         1
@@ -235,12 +235,13 @@
         }
       ],
       "leftModuleId": 11,
+      "rightModuleId": 17,
       "data": {
-        "save": "FFTFFFFFFFFFFFFFTTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFTTTFFTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "save": "FFFTFFFFFFFFFFFFTTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFTTTFFTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
         "blue": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
       },
       "pos": [
-        22,
+        19,
         0
       ]
     },
@@ -275,9 +276,10 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 16,
       "rightModuleId": 10,
       "pos": [
-        18,
+        15,
         0
       ]
     },
@@ -354,9 +356,87 @@
         }
       ],
       "leftModuleId": 15,
+      "rightModuleId": 11,
       "pos": [
         10,
         0
+      ]
+    },
+    {
+      "id": 17,
+      "plugin": "KRTPluginA",
+      "version": "1.22.22",
+      "model": "K",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.92399943
+        },
+        {
+          "id": 2,
+          "value": 5.0
+        },
+        {
+          "id": 3,
+          "value": 6.0
+        },
+        {
+          "id": 4,
+          "value": 68.3500748
+        },
+        {
+          "id": 5,
+          "value": 93.900116
+        }
+      ],
+      "leftModuleId": 10,
+      "pos": [
+        28,
+        0
+      ]
+    },
+    {
+      "id": 18,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "LFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.945996344
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "pos": [
+        33,
+        1
       ]
     }
   ],
@@ -447,6 +527,38 @@
       "outputId": 1,
       "inputModuleId": 10,
       "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 28,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 17,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 29,
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 30,
+      "outputModuleId": 18,
+      "outputId": 1,
+      "inputModuleId": 17,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 31,
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 17,
+      "inputId": 3,
       "color": "#c91847"
     }
   ]

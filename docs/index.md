@@ -183,7 +183,9 @@ an all-pass filter. For some phaser classic sounds.
 **RD** should be fun.
 
 ### K
-oooh, what to do on the catch-22?
+oooh, what to do on the catch-22? I'll go black almost on the panel. A phase modulation VCO. Some simple controls and a simple algorithm.
+
+**RD** to make some nice spectral timbres.
 
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---

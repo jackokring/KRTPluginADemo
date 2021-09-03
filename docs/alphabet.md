@@ -9,7 +9,7 @@
 * H
 * I
 * [J](https://github.com/jackokring/KRTPluginA#j) - all-pass filter
-* [K](https://github.com/jackokring/KRTPluginA#k)
+* [K](https://github.com/jackokring/KRTPluginA#k) - phase modulation oscillator
 * [L](https://github.com/jackokring/KRTPluginA#l) - latency delay
 * [M](https://github.com/jackokring/KRTPluginA#m) - emphisis filter
 * N
