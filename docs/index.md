@@ -187,11 +187,16 @@ oooh, what to do on the catch-22? I'll go black almost on the panel. A phase mod
 
 **RD** to make some nice spectral timbres.
 
+Seeing the Light **v1.23.22**
+---
+
+### H
+an organ with some extra sounds? Standard Hammond stops with CVs and a little bit of phase modulation CV goodness.
+
+**RD** as a classic organ set of harmonics mixed with some base weighted phase modulation, why not?
+
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
 
 ### P
 a spice flange malange. A delay with some all-pass feedback chorus style modulation?
-
-### H
-an organ with some extra sounds?
