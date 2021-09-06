@@ -147,7 +147,7 @@
     {
       "id": 10,
       "plugin": "KRTPluginA",
-      "version": "1.23.22",
+      "version": "1.23.23",
       "model": "B",
       "params": [
         {
@@ -249,7 +249,7 @@
     {
       "id": 11,
       "plugin": "KRTPluginA",
-      "version": "1.23.22",
+      "version": "1.23.23",
       "model": "O",
       "params": [
         {
@@ -328,7 +328,7 @@
     {
       "id": 16,
       "plugin": "KRTPluginA",
-      "version": "1.23.22",
+      "version": "1.23.23",
       "model": "J",
       "params": [
         {
@@ -366,7 +366,7 @@
     {
       "id": 17,
       "plugin": "KRTPluginA",
-      "version": "1.23.22",
+      "version": "1.23.23",
       "model": "K",
       "params": [
         {
@@ -445,44 +445,44 @@
     {
       "id": 19,
       "plugin": "KRTPluginA",
-      "version": "1.23.22",
+      "version": "1.23.23",
       "model": "H",
       "params": [
         {
           "id": 0,
-          "value": 63.6999969
+          "value": 100.0
         },
         {
           "id": 1,
-          "value": 36.8500061
+          "value": 77.7333755
         },
         {
           "id": 2,
-          "value": 37.4000053
+          "value": 50.0
         },
         {
           "id": 3,
-          "value": 26.0000019
+          "value": 25.0
         },
         {
           "id": 4,
-          "value": 86.4499969
+          "value": 16.6666679
         },
         {
           "id": 5,
-          "value": 42.6000252
+          "value": 12.5
         },
         {
           "id": 6,
-          "value": 49.6500015
+          "value": 62.6500359
         },
         {
           "id": 7,
-          "value": 73.2999496
+          "value": 8.33333397
         },
         {
           "id": 8,
-          "value": 58.4499931
+          "value": 42.5500031
         }
       ],
       "leftModuleId": 20,
@@ -495,7 +495,7 @@
     {
       "id": 20,
       "plugin": "KRTPluginA",
-      "version": "1.23.22",
+      "version": "1.23.23",
       "model": "R",
       "params": [
         {
@@ -504,7 +504,7 @@
         },
         {
           "id": 1,
-          "value": 3.76800513
+          "value": 0.906006217
         }
       ],
       "leftModuleId": 18,
@@ -517,44 +517,44 @@
     {
       "id": 21,
       "plugin": "KRTPluginA",
-      "version": "1.23.22",
+      "version": "1.23.23",
       "model": "H",
       "params": [
         {
           "id": 0,
-          "value": 69.7999878
+          "value": 100.0
         },
         {
           "id": 1,
-          "value": 90.650032
+          "value": 64.3833389
         },
         {
           "id": 2,
-          "value": 29.4500008
-        },
-        {
-          "id": 3,
-          "value": 35.1499977
-        },
-        {
-          "id": 4,
-          "value": 72.8000107
-        },
-        {
-          "id": 5,
-          "value": 86.5999985
-        },
-        {
-          "id": 6,
-          "value": 74.0000076
-        },
-        {
-          "id": 7,
           "value": 50.0
         },
         {
+          "id": 3,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 55.6666718
+        },
+        {
+          "id": 5,
+          "value": 12.5
+        },
+        {
+          "id": 6,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 8.33333397
+        },
+        {
           "id": 8,
-          "value": 26.4500389
+          "value": 35.3500099
         }
       ],
       "leftModuleId": 19,
@@ -567,7 +567,7 @@
     {
       "id": 22,
       "plugin": "KRTPluginA",
-      "version": "1.23.22",
+      "version": "1.23.23",
       "model": "F",
       "params": [
         {
@@ -605,7 +605,7 @@
     {
       "id": 23,
       "plugin": "KRTPluginA",
-      "version": "1.23.22",
+      "version": "1.23.23",
       "model": "J",
       "params": [
         {
@@ -778,28 +778,12 @@
       "color": "#c91847"
     },
     {
-      "id": 36,
-      "outputModuleId": 21,
-      "outputId": 0,
-      "inputModuleId": 20,
-      "inputId": 0,
-      "color": "#0986ad"
-    },
-    {
       "id": 37,
       "outputModuleId": 9,
       "outputId": 0,
       "inputModuleId": 21,
       "inputId": 9,
       "color": "#c9b70e"
-    },
-    {
-      "id": 38,
-      "outputModuleId": 19,
-      "outputId": 0,
-      "inputModuleId": 22,
-      "inputId": 6,
-      "color": "#0c8e15"
     },
     {
       "id": 39,
@@ -818,14 +802,6 @@
       "color": "#0986ad"
     },
     {
-      "id": 33,
-      "outputModuleId": 23,
-      "outputId": 1,
-      "inputModuleId": 10,
-      "inputId": 4,
-      "color": "#c9b70e"
-    },
-    {
       "id": 41,
       "outputModuleId": 22,
       "outputId": 0,
@@ -839,6 +815,38 @@
       "outputId": 1,
       "inputModuleId": 23,
       "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 33,
+      "outputModuleId": 19,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 43,
+      "outputModuleId": 21,
+      "outputId": 0,
+      "inputModuleId": 20,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 44,
+      "outputModuleId": 15,
+      "outputId": 1,
+      "inputModuleId": 19,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 45,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 21,
+      "inputId": 1,
       "color": "#0c8e15"
     }
   ]
