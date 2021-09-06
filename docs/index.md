@@ -187,13 +187,13 @@ oooh, what to do on the catch-22? I'll go black almost on the panel. A phase mod
 
 **RD** to make some nice spectral timbres.
 
-Seeing the Light **v1.23.22**
+Seeing the Light **v1.23.23**
 ---
 
 ### H
 an organ with some extra sounds? Standard Hammond stops with CVs and a little bit of phase modulation CV goodness. So based on a core modulo 240 oscillator, 9 harmonics are produced, gained and added. Phase modulation is applied per harmonic as just dividing the "phased" signal will reduce modulation of the base. In fact if the phase modulation is multiplied by the inverse of the harmonic division, more is applied to the 16' than the 1' by 16 times. This makes sense as the slope is 1/16th, so the phase advance should be 16 times for the same change of phase. This gives a 256 times bias from what would be done with just division.
 
-**RD** as a classic organ set of harmonics mixed with some base weighted phase modulation, why not? A base gimpathizer?
+**RD** as a classic organ set of harmonics mixed with some base weighted phase modulation, why not? A base gimpathizer? Yes, I noticed the right of centre too!
 
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
