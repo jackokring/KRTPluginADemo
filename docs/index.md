@@ -195,6 +195,16 @@ an organ with some extra sounds? Standard Hammond stops with CVs and a little bi
 
 **RD** as a classic organ set of harmonics mixed with some base weighted phase modulation, why not? A base gimpathizer? Yes, I noticed the right of centre too! Vat's da stowery, marv;in glowery?
 
+Dynamical Utility **v1.24.24**
+---
+
+### G
+a compressor, and transient CV controller.
+
+**RD** for general compression, sustain and the CV pulse on drum envelopes.
+
+Also I think fixing the initialization of filter variables and some control range extension with other fixes is likely. Seems sometimes filters lock up on the float initialization.
+
 Extras **vTBC (NFA - No Fixed Arrival)**
 ---
 
