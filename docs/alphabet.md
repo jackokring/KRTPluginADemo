@@ -5,9 +5,9 @@
 * [D](https://github.com/jackokring/KRTPluginA#d) - exponetial VCA
 * [E](https://github.com/jackokring/KRTPluginA#e) - envelope VCA
 * [F](https://github.com/jackokring/KRTPluginA#f) - morph filter
-* G
-* H
-* I
+* [G](https://github.com/jackokring/KRTPluginA#g) - compressor
+* [H](https://github.com/jackokring/KRTPluginA#h) - organ oscillator
+* [I](https://github.com/jackokring/KRTPluginA#i) - clock divider
 * [J](https://github.com/jackokring/KRTPluginA#j) - all-pass filter
 * [K](https://github.com/jackokring/KRTPluginA#k) - phase modulation oscillator
 * [L](https://github.com/jackokring/KRTPluginA#l) - latency delay
