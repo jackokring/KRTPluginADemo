@@ -144,7 +144,7 @@
         },
         {
           "id": 3,
-          "value": 25.0
+          "value": 78.5500183
         },
         {
           "id": 4,
@@ -206,15 +206,15 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.870999873
         },
         {
           "id": 1,
-          "value": 0.502999961
+          "value": 0.931000054
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": -0.215999588
         },
         {
           "id": 3,
@@ -222,7 +222,7 @@
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": -1.11000001
         },
         {
           "id": 5,
@@ -264,7 +264,7 @@
         },
         {
           "id": 5,
-          "value": 12.5
+          "value": 32.7499962
         },
         {
           "id": 6,
@@ -294,7 +294,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.30200088
+          "value": 1.44600141
         },
         {
           "id": 1,
@@ -355,6 +355,72 @@
       "pos": [
         46,
         0
+      ]
+    },
+    {
+      "id": 8,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "LFO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.89099991
+        },
+        {
+          "id": 3,
+          "value": 1.5
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        }
+      ],
+      "rightModuleId": 9,
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "LFO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.5
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 8,
+      "pos": [
+        6,
+        1
       ]
     }
   ],
@@ -445,6 +511,38 @@
       "outputId": 0,
       "inputModuleId": 7,
       "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 11,
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 12,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 13,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 14,
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 5,
       "color": "#c91847"
     }
   ]

@@ -195,8 +195,13 @@ an organ with some extra sounds? Standard Hammond stops with CVs and a little bi
 
 **RD** as a classic organ set of harmonics mixed with some base weighted phase modulation, why not? A base gimpathizer? Yes, I noticed the right of centre too! Vat's da stowery, marv;in glowery?
 
-Dynamical Utility **v1.24.24**
+Dynamical Utility **v1.25.24**
 ---
+
+### I
+a clock division and downbeat processor. To help with `RST` and `CLK` collision behaviour of some modules, an output without the first clock after reset and one with just the first clock after reset are provided. Some nice and in time clock division ratios are also supplied.
+
+**RD** quite useful.
 
 ### G
 a compressor, and transient CV controller.
