@@ -3,6 +3,9 @@ Welcome to the [KRTPluginA](https://library.vcvrack.com/KRTPluginA) Blog Site
 
 Built with the most excellent GitHub pages facility. **Under Construction: Always But Slowly**. Recommended.
 
+### [VCVRack V2 Release](rocket.md) upgrading and the future.
+Follow the above link for V2 action. The below text comprises some background and V1 builds.
+
 More info on [the process](process.md) such as using `master` and not a branch for easy tests by others but confusion on the command line compile.
 
 And it came to pass that VCV Rack didn't need a full build, which didn't work for me, and now I can make some modules. This plugin brings together some ideas I've had for a while into functioning modules. The public release is [here](https://library.vcvrack.com/KRTPluginA), and as compiling a later test release can be complicated you may have to wait sometimes for the new features.
@@ -48,7 +51,7 @@ got jokingly assigned a letter by TL;DR, but it is an exponetial VCA. It also fe
 ### R
 such a simple module. take any cable and split it to the input and the output goes to where the cable ended. Precise CV conservation pass through. Then you can gain another signal on, and take that sum which is the output with the other signal on, and take it as another gain controlled CV to somewhere else. A generic mixer/splitter and no demo is needed.
 
-**RD** a prepositional 3HP to factor out so many **unused** always input gains. 
+**RD** a prepositional 3HP to factor out so many **unused** always input gains.
 
 Installment of the Next 18 HP Allocation **v1.8.13**
 ---
@@ -210,7 +213,7 @@ a compressor, and transient CV controller.
 
 Also I think fixing the initialization of filter variables and some control range extension with other fixes is likely. Seems sometimes filters lock up on the float initialization.
 
-Extras **vTBC (NFA - No Fixed Arrival)**
+Extras **vTBC (NFA - No Fixed Arrival) Delayed until after V2 Migration**
 ---
 
 ### P
