@@ -8,4 +8,4 @@ It's going well on the conversion to API 2. The most confusing issue is perhaps 
 I've submitted **2.25.26** for publication in the library. Not all machines have been API 2 converted, but quite a few have. To prevent documentation suffering from boiler plate documentation boredom this was necessary. The rest are easy to convert, as there is perhaps just one snap knob to handle.
 
 ## 2.25.27
-Full API 2 edits to label all ports and lights.
+Full API 2 edits to label all ports and lights. Up on test before commit to distribution.
