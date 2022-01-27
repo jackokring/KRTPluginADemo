@@ -2,7 +2,7 @@
 * [A](https://github.com/jackokring/KRTPluginA#a) - 18 dB filter
 * [B](https://github.com/jackokring/KRTPluginA#b) - performance switch
 * [C](https://github.com/jackokring/KRTPluginA#c) - mixer sixer
-* [D](https://github.com/jackokring/KRTPluginA#d) - exponetial VCA
+* [D](https://github.com/jackokring/KRTPluginA#d) - exponential VCA
 * [E](https://github.com/jackokring/KRTPluginA#e) - envelope VCA
 * [F](https://github.com/jackokring/KRTPluginA#f) - 24dB morph filter
 * [G](https://github.com/jackokring/KRTPluginA#g) - compressor
@@ -11,7 +11,7 @@
 * [J](https://github.com/jackokring/KRTPluginA#j) - all-pass filter phaser
 * [K](https://github.com/jackokring/KRTPluginA#k) - phase modulation oscillator
 * [L](https://github.com/jackokring/KRTPluginA#l) - latency delay
-* [M](https://github.com/jackokring/KRTPluginA#m) - emphisis filter
+* [M](https://github.com/jackokring/KRTPluginA#m) - emphasis filter
 * N
 * [O](https://github.com/jackokring/KRTPluginA#o) - parabolic skew oscillator
 * P
@@ -38,7 +38,7 @@
 * ι
 * κ
 * λ
-* [μ](https://github.com/jackokring/KRTPluginA#μ) - precise distrotion
+* [μ](https://github.com/jackokring/KRTPluginA#μ) - precise distortion
 * ν
 * ξ
 * --
@@ -50,9 +50,9 @@
 * φ
 * χ
 * Ψ
-* [Ω](https://github.com/jackokring/KRTPluginA#Ω) - clock distributer with randomness
+* [Ω](https://github.com/jackokring/KRTPluginA#Ω) - clock distributor with randomness
 
-# Extras (on the Peking bejing standards)
+# Extras (on the Peking Beijing standards)
 * 母鸡 - ?
 * 计算 - ?
 * 房东 - ?

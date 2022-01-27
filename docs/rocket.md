@@ -8,4 +8,6 @@ It's going well on the conversion to API 2. The most confusing issue is perhaps 
 I've submitted **2.25.26** for publication in the library. Not all machines have been API 2 converted, but quite a few have. To prevent documentation suffering from boiler plate documentation boredom this was necessary. The rest are easy to convert, as there is perhaps just one snap knob to handle.
 
 ## 2.25.27
-Full API 2 edits to label all ports and lights. Up on test before commit to distribution.
+Full API 2 edits to label all ports and lights. Up on test before commit to distribution. I seem to be going along at about 100 downloads a day on **2.25.25** and I hope this continues or get better. This build has no new instruments, but has moved all modules to API 2.
+
+Now to think up some new modules. Maybe just a few ...
