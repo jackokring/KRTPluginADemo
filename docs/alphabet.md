@@ -24,7 +24,7 @@
 * [W](https://github.com/jackokring/KRTPluginA#w) - chromatic gate summander
 * [X](https://github.com/jackokring/KRTPluginA#x) - wave folder
 * [Y](https://github.com/jackokring/KRTPluginA#y) - gate sequencer
-* Z
+* [Z](https://github.com/jackokring/KRTPluginA#z) - moonshine elliptical
 
 # Greek
 * α

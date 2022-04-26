@@ -11,3 +11,8 @@ I've submitted **2.25.26** for publication in the library. Not all machines have
 Full API 2 edits to label all ports and lights. Up on test before commit to distribution. I seem to be going along at about 100 downloads a day on **2.25.25** and I hope this continues or get better. This build has no new instruments, but has moved all modules to API 2.
 
 Now to think up some new modules. Maybe just a few ...
+
+## 2.26.27
+[Moonshine Elliptical](https://github.com/jackokring/KRTPluginA/blob/master/Z%20Moonshine%20Elliptical.pdf) is mildly interesting just from a mathematical point of view. [BSD conjecture](https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture) might be related and is the sense that five groups in combination seem to have some generative power of description. But thinking exactly how this can be used for audio is quite challenging.
+
+I'll have to have a think.
