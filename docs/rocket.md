@@ -1,6 +1,10 @@
 VCVRack V2
 ===
 
+![Donate](PaypalDonate.png)
+
+[Donate](https://www.paypal.com/donate/?hosted_button_id=Y94P8UE7PYCJY)
+
 The upgrade was quite painless after **2.0.6** was installed. A simple `plugin.json` change and some checking to see if no API deprecation was needed. Nope, so build and **2.25.25** was issued, and **2.25.26** was started so I could add anything extra from the new API, like labels for ports.
 
 It's going well on the conversion to API 2. The most confusing issue is perhaps handling RGB lights. It would seem that having 3 tool tips registered would be a bit excessive. Lucky for me I have buttons in the LED bezels, and so the button has a label option `default = ""` as the second parameter to `configButton`.
