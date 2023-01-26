@@ -12,7 +12,12 @@ Full API 2 edits to label all ports and lights. Up on test before commit to dist
 
 Now to think up some new modules. Maybe just a few ...
 
-## 2.26.27
+## 2.26.28
+Fixed a few things when upgrading to `Rack-lin-arm64-2.2.3` and submitted. The `Z` module is just some GUI elements at present.
+
 [Moonshine Elliptical](https://github.com/jackokring/KRTPluginA/blob/master/Z%20Moonshine%20Elliptical.pdf) is mildly interesting just from a mathematical point of view. [BSD conjecture](https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture) might be related and is the sense that five groups in combination seem to have some generative power of description. But thinking exactly how this can be used for audio is quite challenging.
 
-I'll have to have a think.
+I started building on `lin-amd64` available [Linux ARM](https://drive.google.com/drive/folders/11k81iJwAW_xP3fNGO9ZmNh-XwS2DexbF) Chromebook Tested. I just have to get back in the post COVID swing. I might develop some comercial modules after `Z`. 
+
+## 2.28.29
+TBC
