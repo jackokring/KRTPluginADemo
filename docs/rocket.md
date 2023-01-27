@@ -1,9 +1,12 @@
-VCVRack V2
-===
+# VCVRack V2
 
 ![Donate](PaypalDonate.png)
 
 [Donate](https://www.paypal.com/donate/?hosted_button_id=Y94P8UE7PYCJY)
+
+* [Old Stuff](index.md)
+* [New Stuff](#latest)
+* [Linux ARM Builds](https://drive.google.com/drive/folders/11k81iJwAW_xP3fNGO9ZmNh-XwS2DexbF)
 
 The upgrade was quite painless after **2.0.6** was installed. A simple `plugin.json` change and some checking to see if no API deprecation was needed. Nope, so build and **2.25.25** was issued, and **2.25.26** was started so I could add anything extra from the new API, like labels for ports.
 
@@ -16,12 +19,16 @@ Full API 2 edits to label all ports and lights. Up on test before commit to dist
 
 Now to think up some new modules. Maybe just a few ...
 
+# Latest
+
 ## 2.26.28
-Fixed a few things when upgrading to `Rack-lin-arm64-2.2.3` and submitted. The `Z` module is just some GUI elements at present.
+Fixed a few things when upgrading to `Rack-lin-arm64-2.2.3` and submitted to the build pipeline. The `Z` module is just some GUI elements at present.
 
 [Moonshine Elliptical](https://github.com/jackokring/KRTPluginA/blob/master/Z%20Moonshine%20Elliptical.pdf) is mildly interesting just from a mathematical point of view. [BSD conjecture](https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture) might be related and is the sense that five groups in combination seem to have some generative power of description. But thinking exactly how this can be used for audio is quite challenging.
 
-I started building on `lin-amd64` available [Linux ARM](https://drive.google.com/drive/folders/11k81iJwAW_xP3fNGO9ZmNh-XwS2DexbF) Chromebook Tested. I just have to get back in the post COVID swing. I might develop some comercial modules after `Z`. 
+I started building on `lin-amd64` available [here](https://drive.google.com/drive/folders/11k81iJwAW_xP3fNGO9ZmNh-XwS2DexbF) Chromebook Tested and read the **README**. I just have to get back in the post COVID swing. I might develop some commercial modules after `Z`.
+
+It's been fun getting this Chromebook to run Rack. There is no library support for `lin-arm64` so I built about **1067** modules. Missed out on some good `x86` only ones. I have only recently added a spell checker for my markdown in this latest Chromebook venture. Whey hey, I'm a pro!
 
 ## 2.28.29
 TBC
