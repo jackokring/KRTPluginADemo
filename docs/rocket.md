@@ -30,5 +30,10 @@ I started building on `lin-amd64` available [here](https://drive.google.com/driv
 
 It's been fun getting this Chromebook to run Rack. There is no library support for `lin-arm64` so I built about **1067** modules. Missed out on some good `x86` only ones. I have only recently added a spell checker for my markdown in this latest Chromebook venture. Whey hey, I'm a pro!
 
+## Brown Out, Brown Noise
+Well, still waiting for the library update, and the Rack community forum site appears offline (Error 504 followed by waiting for the server loading circles). Maybe it's some hacky from the fabulous people of the non-musical suck the profit instead foundation. You'll never hear about them on television. If you have a television they'll whip you for not sucking the profit.
+
+Maybe next week then the new bug found and fixed in `C` won't crash when loaded.
+
 ## 2.28.29
 TBC
