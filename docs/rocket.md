@@ -19,8 +19,6 @@ Full API 2 edits to label all ports and lights. Up on test before commit to dist
 
 Now to think up some new modules. Maybe just a few ...
 
-# Latest
-
 ## 2.26.28
 Fixed a few things when upgrading to `Rack-lin-arm64-2.2.3` and submitted to the build pipeline. The `Z` module is just some GUI elements at present.
 
@@ -35,5 +33,10 @@ Well, still waiting for the library update, and the Rack community forum site ap
 
 Maybe next week then the new bug found and fixed in `C` won't crash when loaded.
 
-## 2.28.29
+# Latest
+
+## 2.26.28 Published 2023-01-30
+Yes, it's uploaded. `C` is fixed so a nice triple channel mix, invert and filter with link chaining. Now to focus on `Z` (the GUI style preview is only partially done with no processing of sound). `E` has been de-glitched too.
+
+## 2.26.29
 TBC
