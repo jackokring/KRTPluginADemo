@@ -38,5 +38,11 @@ Maybe next week then the new bug found and fixed in `C` won't crash when loaded.
 ## 2.26.28 Published 2023-01-30
 Yes, it's uploaded. `C` is fixed so a nice triple channel mix, invert and filter with link chaining. Now to focus on `Z` (the GUI style preview is only partially done with no processing of sound). `E` has been de-glitched too.
 
+This leaves me now to work on the `Z` module GUI, which has changed a little. I've got to decide on the VCO kind and location, as it might just be a simple sine wave or some kind of spectral additive. It is destined to got through a wave-shaper of sorts given the nature of the module. It also will have phased outputs, so it likely will need two ratio tuning knobs.
+
+I'm tunning the include and excludes to ignore the many `~/Rack/plugins/**` source files to speed scanning my own source. `"../**": true` in `settings.json` perhaps (I mean I don't want it to exclude the directory `~/Rack/plugins/KRTPluginA` and apparently it doesn't). I've also added the markdown for this blog into the project. This makes it easier to edit in the one place now that VSCode is much, much faster due to also having all the unused extensions switched off.
+
+I'm cleaning up the archives of older versions as they aren't much use to me or even to others as the `2.2.3` version of Rack is quite nice and stable.
+
 ## 2.26.29
 TBC
