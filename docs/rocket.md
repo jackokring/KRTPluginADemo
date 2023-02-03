@@ -44,7 +44,7 @@ I'm tunning the include and excludes to ignore the many `~/Rack/plugins/**` sour
 
 I'm cleaning up the archives of older versions as they aren't much use to me or even to others as the `2.2.3` version of Rack is quite nice and stable. And apparently I have to exclude the same header search from this repo and "this markdown like C" needs the extensions for C too, as it's part of the workspace now with its own `settings.json`.
 
-
+So I deleted `nautilus` and installed `thunar` instead to increase efficiency. That background `tracker-miner-fs` task is a bit of a hog at inconvenient moments (glitch). I also added in some more recent versions of some plugins.
 
 ## 2.26.29
 TBC
