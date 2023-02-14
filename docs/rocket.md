@@ -44,7 +44,20 @@ I'm tunning the include and excludes to ignore the many `~/Rack/plugins/**` sour
 
 I'm cleaning up the archives of older versions as they aren't much use to me or even to others as the `2.2.3` version of Rack is quite nice and stable. And apparently I have to exclude the same header search from this repo and "this markdown like C" needs the extensions for C too, as it's part of the workspace now with its own `settings.json`.
 
+## General Coding
 So I deleted `nautilus` and installed `thunar` instead to increase efficiency. That background `tracker-miner-fs` task is a bit of a hog at inconvenient moments (glitch). I also added in some more recent versions of some plugins.
+
+I've also been building `OpenRA` (Red Alert - the game) and `J` (from jsoftware - the language) to get more things running on this Chromebook. `J` especially was a bi task (SSD wise) as `jqt` needed quite a lot of `Qt5` dependancies installed. I seem to have `QtCreator` installed now "for free". I might have to pack down some of the build code, of some projects, to free up some space.
+
+For python I have made some `.bashrc` entries:
+```
+# pip utilities
+alias pipfix="(pip check | awk '{print $1}' | xargs pip install --upgrade) && pip check"
+
+# pip upgrade all
+alias pipnew="(pip list -o | cut -f1 -d' ' | tr ' ' '\n' | awk '{if(NR>=3)print}' | cut -d' ' -f1 | xargs -n1 pip install -U) && pip check"
+``` 
+To allow upgrading packages, and reducing the number of version conflicts after. I managed to get my current `pip check` down to just `ossfs` needing an older version of `fsspec` for some AWS thing built into something, which I'm not using.
 
 ## 2.26.29
 TBC
