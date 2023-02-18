@@ -33,8 +33,6 @@ Well, still waiting for the library update, and the Rack community forum site ap
 
 Maybe next week then the new bug found and fixed in `C` won't crash when loaded.
 
-# Latest
-
 ## 2.26.28 Published 2023-01-30
 Yes, it's uploaded. `C` is fixed so a nice triple channel mix, invert and filter with link chaining. Now to focus on `Z` (the GUI style preview is only partially done with no processing of sound). `E` has been de-glitched too.
 
@@ -43,6 +41,8 @@ This leaves me now to work on the `Z` module GUI, which has changed a little. I'
 I'm tunning the include and excludes to ignore the many `~/Rack/plugins/**` source files to speed scanning my own source. `"../**": true` in `settings.json` perhaps (I mean I don't want it to exclude the directory `~/Rack/plugins/KRTPluginA` and apparently it doesn't). I've also added the markdown for this blog into the project. This makes it easier to edit in the one place now that VSCode is much, much faster due to also having all the unused extensions switched off.
 
 I'm cleaning up the archives of older versions as they aren't much use to me or even to others as the `2.2.3` version of Rack is quite nice and stable. And apparently I have to exclude the same header search from this repo and "this markdown like C" needs the extensions for C too, as it's part of the workspace now with its own `settings.json`.
+
+# Latest
 
 ## General Coding
 So I deleted `nautilus` and installed `thunar` instead to increase efficiency. That background `tracker-miner-fs` task is a bit of a hog at inconvenient moments (glitch). I also added in some more recent versions of some plugins.
@@ -62,6 +62,10 @@ To allow upgrading packages, and reducing the number of version conflicts after.
 The build of `J` is interesting, as I'm making an new branch to investigate if a `KRTPluginJ` might be possible. Basically (kind of inspirational pun intended) the `J` library in its own thread with IO module extenders to operate on data streams represented as `J` global variables with all the code in `A` to `Z` globals set in `profile.ijs`. Some limits on the `mac-arm64` version as they don't directly `make` such a `libj.so` equivelent.
 
 With a bit of planning this might be a nice module. I'm imagining something like time, polyphony and some other control CV for indexing the `J` arrays returned. Of course it will be a bit inefficient as parsing and stringifying floats might be quite division intensive. But, the goal is to make the change over between arrays synchronous in some fashion.
+
+## So `KRTPluginJ` Then
+
+The starting repository is here. Not much done yet apart from [planning](https://github.com/jackokring/jqt-chromebook-arm/blob/libj-wrapper/VCVRack.md) how it will work, and what front panelage might be needed. It has to be external to the `KRTPluginA` which has a MIT licence as `J` is all GPL3. Also it might only be self build DIY and not in the library.
 
 ## 2.26.29
 TBC
