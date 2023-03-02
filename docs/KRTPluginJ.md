@@ -1,2 +1,2 @@
-# KRTPluginJ
+# Captain's Log `KRTPluginJ`
 

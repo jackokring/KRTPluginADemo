@@ -6,6 +6,7 @@
 
 * [Old Stuff](index.md)
 * [New Stuff](#latest)
+* [KRTPluginJ](KRTPluginJ.md)
 * [Linux ARM Builds](https://drive.google.com/drive/folders/11k81iJwAW_xP3fNGO9ZmNh-XwS2DexbF)
 
 The upgrade was quite painless after **2.0.6** was installed. A simple `plugin.json` change and some checking to see if no API deprecation was needed. Nope, so build and **2.25.25** was issued, and **2.25.26** was started so I could add anything extra from the new API, like labels for ports.
@@ -42,8 +43,6 @@ I'm tunning the include and excludes to ignore the many `~/Rack/plugins/**` sour
 
 I'm cleaning up the archives of older versions as they aren't much use to me or even to others as the `2.2.3` version of Rack is quite nice and stable. And apparently I have to exclude the same header search from this repo and "this markdown like C" needs the extensions for C too, as it's part of the workspace now with its own `settings.json`.
 
-# Latest
-
 ## General Coding
 So I deleted `nautilus` and installed `thunar` instead to increase efficiency. That background `tracker-miner-fs` task is a bit of a hog at inconvenient moments (glitch). I also added in some more recent versions of some plugins.
 
@@ -63,9 +62,13 @@ The build of `J` is interesting, as I'm making an new branch to investigate if a
 
 With a bit of planning this might be a nice module. I'm imagining something like time, polyphony and some other control CV for indexing the `J` arrays returned. Of course it will be a bit inefficient as parsing and stringifying floats might be quite division intensive. But, the goal is to make the change over between arrays synchronous in some fashion.
 
+# Latest
+
 ## So `KRTPluginJ` Then
 
-The starting repository is here. Not much done yet apart from [planning](https://github.com/jackokring/jqt-chromebook-arm/blob/libj-wrapper/VCVRack.md) how it will work, and what front panelage might be needed. It has to be external to the `KRTPluginA` which has a MIT licence as `J` is all GPL3. Also it might only be self build DIY and not in the library.
+The starting repository is here. Not much done yet apart from [planning](https://github.com/jackokring/jqt-chromebook-arm/blob/libj-wrapper/README.md) how it will work, and what front panelage might be needed. It has to be external to the `KRTPluginA` which has a MIT licence as `J` is all GPL3. Also it might only be self build DIY and not in the library.
+
+The `Make` process works making a package, but this has yet to contain the right module code. Looking into `efsw` for file watching changees. Also I made it build `j` from source and install emacs through `sudo apt`. Careful, it's not the `master` or `main` branch. I think I might leave that for a clone of my first `j` build.
 
 ## 2.26.29
 TBC
