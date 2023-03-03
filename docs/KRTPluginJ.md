@@ -9,3 +9,5 @@ I've added `make macjig` to force `menus.txt` change recompilation. A stop gap a
 Next!
 
 I vont to vrock'it into spass. Like a moo-sycle style like so man, hey dudumdida, ho, yes, or "well it's like the loader is like flawed, but excellent, but needs a stop 'till end then go, as an easy man." 2023-03-02 yes either same TB-303*2.
+
+Yes, the build system should now be better. It follows a few botches and generic code hacks. So now I'm thinking about maybe other languages to add. I though LOGO for fun, but `TO NAME :VAR` is all wrong. It should've been `TO "NAME "VAR` for evaluation consistency.
