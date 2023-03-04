@@ -7,7 +7,7 @@
 * [Old Stuff](index.md)
 * [New Stuff](#latest)
 * [KRTPluginJ](KRTPluginJ.md)
-* [Linux ARM Builds](https://drive.google.com/drive/folders/11k81iJwAW_xP3fNGO9ZmNh-XwS2DexbF)
+* [Linux ARM Builds - not just mime with auto pull make and dist](https://drive.google.com/drive/folders/11k81iJwAW_xP3fNGO9ZmNh-XwS2DexbF)
 
 The upgrade was quite painless after **2.0.6** was installed. A simple `plugin.json` change and some checking to see if no API deprecation was needed. Nope, so build and **2.25.25** was issued, and **2.25.26** was started so I could add anything extra from the new API, like labels for ports.
 
@@ -72,5 +72,13 @@ The `Make` process works making a package, but this has yet to contain the right
 
 Great, I found the `-Wno-attributes` FLAGS option. Cool, now I don't have to see warning about `Int24` go by. I might just commit it to prevent overwriting it on a possible future `git pull --rebase` of the rack source.
 
-## 2.26.29
+Decided on the panels of prime number HP, with an auto select depending on the number of control lanes or collumns selected. I'm going for a nice cyan kind of blue. Next up is somekind of control scheme match. Then some back port planning for `KRTPluginA/Z` to complete it, and bring a closure. I'm not sure if I'll facelift `A`.
+
+From now on all `KRTPluginJ` suff will be [here](KRTPluginJ.md) as this keeps this page more generic to `KRTPluginA` and the general process and news of rack devewlopments.
+
+## Linux ARM Autobuild
+
+So modules I like and some I think might be interesting. An auto build `pull.sh [dist]` script does all the work now. I've perhaps got to add some submodule pull code and some work around for that `CMake` append `-arm64` to `plugin.so` some haven't fixed in their makefiles. As you've likely guessed I also posses a `push.sh` with a `push.sh [message]` option.
+
+## 2.26.29 `Z`
 TBC
