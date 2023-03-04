@@ -5,7 +5,7 @@
 [Donate](https://www.paypal.com/donate/?hosted_button_id=Y94P8UE7PYCJY)
 
 * [Old Stuff](index.md)
-* [New Stuff](#latest)
+* [New Stuff](#Latest)
 * [KRTPluginJ](KRTPluginJ.md)
 * [Linux ARM Builds - not just mime with auto pull make and dist](https://drive.google.com/drive/folders/11k81iJwAW_xP3fNGO9ZmNh-XwS2DexbF)
 

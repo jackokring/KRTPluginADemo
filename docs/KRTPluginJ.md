@@ -1,5 +1,7 @@
 # Captain's Log `KRTPluginJ`
 
+[Latest](#Latest) Auto jump to where the "edit limit" is plus addition forward ... Auto insert on save?
+
 So the `make` works, but te modules are nowhere near ready. I'm making the "standard" `plugin.cpp`/`plugin.hpp` for all my future plugins. A generic project starter. I've abstracted the edits when making modules to be in `modules.hpp` (for the list of module sources) and `menus.txt` (for the context menus and threaded signalling).
 
 Sayc, sarc .ASM a bound?
@@ -14,4 +16,4 @@ Yes, the build system should now be better. It follows a few botches and generic
 
 Hi ho. Next up (no `postscipt` although cool, has much to  blit and little to command line decompose).  ISo `netpbm` is graphically cool in a textual number data format. I wonder about that fractal algorithm, as it reminds me of the `.fif` file extension from the really early '90s. I managed to recompress the uncompressed residual in a loop at 50% quality and after 3 iterations it was better than 100%b in less time, even though an archive `.zip` of the multiple outputs was required.
 
-
+# Latest
