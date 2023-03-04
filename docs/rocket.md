@@ -78,7 +78,7 @@ From now on all `KRTPluginJ` suff will be [here](KRTPluginJ.md) as this keeps th
 
 ## Linux ARM Autobuild
 
-So modules I like and some I think might be interesting. An auto build `pull.sh [dist]` script does all the work now. I've perhaps got to add some submodule pull code and some work around for that `CMake` append `-arm64` to `plugin.so` some haven't fixed in their makefiles. As you've likely guessed I also posses a `push.sh` with a `push.sh [message]` option.
+So modules I like and some I think might be interesting. An auto build `pull.sh [dist]` script does all the work now. I've perhaps got to add some submodule pull code and some work around for that `CMake` append `-arm64` to `plugin.so` some haven't fixed in their makefiles. As you've likely guessed I also posses a `push.sh` with a `push.sh [<message>]` option. Oh, a BNF-a-like hac-tea-phone gimmick of `<[]>`? What could it mean? Multi-generic? 
 
 ## 2.26.29 `Z`
 TBC
