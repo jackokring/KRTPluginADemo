@@ -49,13 +49,13 @@ So I deleted `nautilus` and installed `thunar` instead to increase efficiency. T
 I've also been building `OpenRA` (Red Alert - the game) and `J` (from jsoftware - the language) to get more things running on this Chromebook. `J` especially was a big task (SSD wise) as `jqt` needed quite a lot of `Qt5` dependancies installed. I seem to have `QtCreator` installed now "for free". I might have to pack down some of the build code, of some projects, to free up some space.
 
 For python I have made some `.bashrc` entries:
-```
-# pip utilities
-alias pipfix="(pip check | awk '{print $1}' | xargs pip install --upgrade) && pip check"
 
-# pip upgrade all
-alias pipnew="(pip list -o | cut -f1 -d' ' | tr ' ' '\n' | awk '{if(NR>=3)print}' | cut -d' ' -f1 | xargs -n1 pip install -U) && pip check"
-``` 
+### pip fix after some upgrades
+`alias pipfix="(pip check | awk '{print $1}' | xargs pip install --upgrade) && pip check"`
+
+### pip upgrade all
+`alias pipnew="(pip list -o | cut -f1 -d' ' | tr ' ' '\n' | awk '{if(NR>=3)print}' | cut -d' ' -f1 | xargs -n1 pip install -U) && pip check"`
+ 
 To allow upgrading packages, and reducing the number of version conflicts after. I managed to get my current `pip check` down to just `ossfs` needing an older version of `fsspec` for some AWS thing built into something, which I'm not using.
 
 The build of `J` is interesting, as I'm making an new branch to investigate if a `KRTPluginJ` might be possible. Basically (kind of inspirational pun intended) the `J` library in its own thread with IO module extenders to operate on data streams represented as `J` global variables with all the code in `A` to `Z` globals set in `profile.ijs`. Some limits on the `mac-arm64` version as they don't directly `make` such a `libj.so` equivelent.
@@ -69,6 +69,8 @@ With a bit of planning this might be a nice module. I'm imagining something like
 The starting repository is here. Not much done yet apart from [planning](https://github.com/jackokring/jqt-chromebook-arm/blob/libj-wrapper/README.md) how it will work, and what front panelage might be needed. It has to be external to the `KRTPluginA` which has a MIT licence as `J` is all GPL3. Also it might only be self build DIY and not in the library.
 
 The `Make` process works making a package, but this has yet to contain the right module code. Looking into `efsw` for file watching changees. Also I made it build `j` from source and install emacs through `sudo apt`. Careful, it's not the `master` or `main` branch. I think I might leave that for a clone of my first `j` build.
+
+Great, I found the `-Wno-attributes` FLAGS option. Cool, now I don't have to see warning about `Int24` go by. I might just commit it to prevent overwriting it on a possible future `git pull --rebase` of the rack source.
 
 ## 2.26.29
 TBC
