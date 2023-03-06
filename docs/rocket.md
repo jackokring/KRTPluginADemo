@@ -80,7 +80,16 @@ From now on all `KRTPluginJ` suff will be [here](KRTPluginJ.md) as this keeps th
 
 So modules I like and some I think might be interesting. An auto build `pull.sh [dist | arch]` script does all the work now. I've perhaps got to add some submodule pull code and some work around for that `CMake` append `-arm64` to `plugin.so` some haven't fixed in their makefiles. As you've likely guessed I also posses a `push.sh` with a `push.sh [<message>]` option. Oh, a BNF-a-like hac-tea-phone gimmick of `<[]>`? What could it mean? Multi-generic? 
 
-I've also added dated error logging and distribution builds on just resource changes. It's often an intensive compression to have to do for all plugins and finding the most upto date resource file is much quicker. I might add a zip archive builder next.
+I've also added dated error logging and distribution builds on just resource changes. It's often an intensive compression to have to do for all plugins and finding the most upto date resource file is much quicker. I might add a zip archive builder next. Archive builder done. Minor error fixed.
+
+Ah, yes it's looking into key bindings time. [KeyBindings](https://vcvrack.com/manual/KeyCommands) and I think not using app globals is a good idea. This leaves
+
+  * Must Hover Module commands - look easy to do, but some commands seem impossible? [Key versus Text](https://vcvrack.com/docs-v2/structrack_1_1widget_1_1Widget#adc26e1f6b9286a3d6506d5d37c3803c4) and no cursor keys allowed as intercepted to scroll Rack.
+  * Selected Widget commands - `onSelect...` versus `onHover...`.  althogh the documentation implies parameters must not do hover, and modules must not do select. 
+
+So that solves the hover/select issue, so only the key/text issue is pending. And must `consume` select to prevent hover, and hover drills down until terminal `Widget` leaf nodes as child iterator is null code. `Key` is physical USB HID code (`key`) or remapped printables (`keyNmae`). `Text` is for Unicode events, and must `consume` to prevent hover. So likey `Key` is the one, unless textual entry on a selected widget is required.
+
+
 
 ## 2.26.29 `Z`
 TBC
