@@ -20,4 +20,6 @@ Hi ho. Next up (no `postscipt` although cool, has much to  blit and little to co
 
 ~~COBOL, ASM (machine specific), PL/1, FORTRAN (good supercomputer heritage though)~~, spreadsheet outputs (LibreOffice), CSV, ...
 
+So I've classed the menus as `OnMenu` so multiple instances can occur. That was realatively easy, but involved a bit of forwarding of classes to callback actions. So it now is complete enough. Next is hot keys. I've got to read up on the docs.
+
 
