@@ -22,6 +22,10 @@ Hi ho. Next up (no `postscipt` although cool, has much to  blit and little to co
 
 So I've classed the menus as `OnMenu` so multiple instances can occur. That was realatively easy, but involved a bit of forwarding of classes to callback actions. So it now is complete enough. Next is hot keys. I've got to read up on the docs.
 
-`error: assignment to 'int (*)(const __mpq_struct *, const __mpq_struct *)' from incompatible pointer type 'FARPROC' {aka 'long long int (*)()'} [-Werror=incompatible-pointer-types]` is the latest, perhaps a cast?
+`error: assignment to 'int (*)(const __mpq_struct *, const __mpq_struct *)' from incompatible pointer type 'FARPROC' {aka 'long long int (*)()'} [-Werror=incompatible-pointer-types]` is the latest, perhaps a cast? So ...
+
+So `mac` builds, `lin` complained at `sudo` so removed for assumed root, and `win` seemed to fail on the `j` link, perhaps an unneeded resource file from MS. I'll set it to one more wizz tonight and fingers crossed only `win` will be left to fix in the morning. :D
+
+
 
 
