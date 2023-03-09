@@ -55,4 +55,14 @@ Error: Process completed with exit code 2.
 
 But still some way to go. I won't know if the `windows` build has similar `premake5` issues until it passes the `j` build point, which is not helped by the combined container process kill. So options are install uuid but given the container complained when trying to install `premake4` which is a linux package from `bionic` Ubuntu onwards, but `uuid-dev` might work where `premake4` didn't.
 
-`https://blog.didierstevens.com/2018/09/17/quickpost-compiling-exes-and-resources-with-mingw-on-kali/` might work though to compile resources.
+[WinRes MinGW](https://blog.didierstevens.com/2018/09/17/quickpost-compiling-exes-and-resources-with-mingw-on-kali/) might work though to compile resources.
+
+Some nice macro expansions to make the names and variables for a module from just a `#define NAME Blank` at the top. Makes for an easy generic copy of the Blank template to add new modules. [Nice Macros](https://www.iar.com/knowledge/learn/programming/advanced-preprocessor-tips-and-tricks/).
+
+Ok, so UUID and `uuid-dev` package. I'm not sure even this will completely fix the `premake5` dependancy chain, as that is just the bootstrap `premake5` before the actual build full which includes all sorts of SSL and `curl` stuff, which isn't needed for many things. I'm on Debian Bullseye, and I've installed many `*-dev` packages doing things.
+
+OK :D (Nice Rust ID on the SIM repo ... robot giggle)
+
+`>`
+
+
