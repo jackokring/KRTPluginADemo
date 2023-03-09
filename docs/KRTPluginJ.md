@@ -26,6 +26,33 @@ So I've classed the menus as `OnMenu` so multiple instances can occur. That was 
 
 So `mac` builds, `lin` complained at `sudo` so removed for assumed root, and `win` seemed to fail on the `j` link, perhaps an unneeded resource file from MS. I'll set it to one more wizz tonight and fingers crossed only `win` will be left to fix in the morning. :D
 
-So I might have solved the `mingw` resource compiler issue, but the shared `linux` container baulks about not finding `-luuid`, while both the `macos` version fail on `*** "invalid configuration release".` when building `premake5`, so perhaps that's a default congig issue ...
+So I might have solved the `mingw` resource compiler issue, but the shared `linux` container baulks about not finding the include for `-luuid` in `premake5` building, while both the `macos` version fail on `*** "invalid configuration release".` when building `efsw` with the built `premake5`, so perhaps that's a default config issue ...
 
+But yes closer than yesterday.
 
+```
+cd efsw/make/macosx && make config=release
+Makefile:42: *** "invalid configuration release".  Stop.
+make: *** [libefsw.a] Error 2
+Error: Process completed with exit code 2.
+```
+
+And
+
+```
+x86_64-ubuntu16.04-linux-gnu-gcc -o build/bootstrap/premake_bootstrap -DPREMAKE_NO_BUILTIN_SCRIPTS -DLUA_USE_POSIX -DLUA_USE_DLOPEN -I"contrib/lua/src" -I"contrib/luashim" src/host/*.c contrib/lua/src/lapi.c contrib/lua/src/lbaselib.c contrib/lua/src/lbitlib.c contrib/lua/src/lcode.c contrib/lua/src/lcorolib.c contrib/lua/src/lctype.c contrib/lua/src/ldblib.c contrib/lua/src/ldebug.c contrib/lua/src/ldo.c contrib/lua/src/ldump.c contrib/lua/src/lfunc.c contrib/lua/src/lgc.c contrib/lua/src/linit.c contrib/lua/src/liolib.c contrib/lua/src/llex.c contrib/lua/src/lmathlib.c contrib/lua/src/lmem.c contrib/lua/src/loadlib.c contrib/lua/src/lobject.c contrib/lua/src/lopcodes.c contrib/lua/src/loslib.c contrib/lua/src/lparser.c contrib/lua/src/lstate.c contrib/lua/src/lstring.c contrib/lua/src/lstrlib.c contrib/lua/src/ltable.c contrib/lua/src/ltablib.c contrib/lua/src/ltm.c contrib/lua/src/lundump.c contrib/lua/src/lutf8lib.c contrib/lua/src/lvm.c contrib/lua/src/lzio.c  -lm -ldl -lrt -luuid
+src/host/os_uuid.c:12:10: fatal error: uuid/uuid.h: No such file or directory
+   12 | #include <uuid/uuid.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [Bootstrap.mak:110: linux] Error 1
+make[2]: Leaving directory '/__w/jqt-chromebook-arm/jqt-chromebook-arm/premake-core'
+make[1]: *** [Makefile:141: premake-core/bin/release/premake5] Error 2
+make[1]: Leaving directory '/__w/jqt-chromebook-arm/jqt-chromebook-arm'
+make: *** [Makefile:186: plugin-build-linux-x64] Error 2
+Error: Process completed with exit code 2.
+```
+
+But still some way to go. I won't know if the `windows` build has similar `premake5` issues until it passes the `j` build point, which is not helped by the combined container process kill. So options are install uuid but given the container complained when trying to install `premake4` which is a linux package from `bionic` Ubuntu onwards, but `uuid-dev` might work where `premake4` didn't.
+
+`https://blog.didierstevens.com/2018/09/17/quickpost-compiling-exes-and-resources-with-mingw-on-kali/` might work though to compile resources.
