@@ -26,6 +26,6 @@ So I've classed the menus as `OnMenu` so multiple instances can occur. That was 
 
 So `mac` builds, `lin` complained at `sudo` so removed for assumed root, and `win` seemed to fail on the `j` link, perhaps an unneeded resource file from MS. I'll set it to one more wizz tonight and fingers crossed only `win` will be left to fix in the morning. :D
 
-
+So I might have solved the `mingw` resource compiler issue, but the shared `linux` container baulks about not finding `-luuid`, while both the `macos` version fail on `*** "invalid configuration release".` when building `premake5`, so perhaps that's a default congig issue ...
 
 
