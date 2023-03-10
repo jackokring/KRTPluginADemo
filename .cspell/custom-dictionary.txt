@@ -1,10 +1,13 @@
 # Custom Dictionary Words
 Autobuild
 blit
+brainfuck
 diddy
 dudumdida
 efsw
+embedable
 FARPROC
+jackokring
 jsoftware
 libefsw
 libj

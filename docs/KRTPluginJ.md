@@ -65,4 +65,8 @@ OK :D (Nice Rust ID on the SIM repo ... robot giggle)
 
 `Friday 2023-03-10 16:00:43 [dev-bot] #47` compiles all, but the `win` has no `j`, no `efsw` callback working and no forking due to `posix` pipe support and `fork` not being available. There's a nice `isWindows()` function though for further development, and a `fileExeTension()` for when the base name doesn't work. I kept it generic justin in case I make windows `fork` work. So a weird hack of `premake4` (`lin` by the repo makefiles predone, `mac` by a botch `brew` and `win` by ignoring such notifications of change). It's kind of impossible without a set of makefiles for `win`. Any offers? Oh `--os=` a `.gitignore` and makefiles for all platforms :D.
 
+I almost messed up on the `-1` control specifications for "no control" at panel location. Likely would have seg faulted. It's shaping up in my mind. Maybe a little `brainfuck audio` so that even windows has a "processor lingo" not needing `fork`. I like the idea, and it keeps the general GPL3 growth with this plugin instead of a dead zilch.
+
+Feel free to use [jackokring/efsw](https://github.com/jackokring/efsw) if you don't want to go through the `Makefile` generation of targets you don't have access to. It is the best CI solution for me. The evil Lua is put to for such a nice little embedable lingo. Maybe ...
+
 
