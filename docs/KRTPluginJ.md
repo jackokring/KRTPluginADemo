@@ -16,8 +16,6 @@ Yes, the build system should now be better. It follows a few botches and generic
 
 Hi ho. Next up (no `postscipt` although cool, has much to  blit and little to command line decompose).  ~~I~~ So `netpbm` is graphically cool in a textual number data format. I wonder about that fractal algorithm, as it reminds me of the `.fif` file extension from the really early '90s. I managed to recompress the uncompressed residual in a loop at 50% quality and after 3 iterations it was better than 100%b in less time, even though an archive `.zip` of the multiple outputs was required.
 
-# Latest
-
 ~~COBOL, ASM (machine specific), PL/1, FORTRAN (good supercomputer heritage though)~~, spreadsheet outputs (LibreOffice), CSV, ...
 
 So I've classed the menus as `OnMenu` so multiple instances can occur. That was realatively easy, but involved a bit of forwarding of classes to callback actions. So it now is complete enough. Next is hot keys. I've got to read up on the docs.
@@ -61,8 +59,10 @@ Some nice macro expansions to make the names and variables for a module from jus
 
 Ok, so UUID and `uuid-dev` package. I'm not sure even this will completely fix the `premake5` dependancy chain, as that is just the bootstrap `premake5` before the actual build full which includes all sorts of SSL and `curl` stuff, which isn't needed for many things. I'm on Debian Bullseye, and I've installed many `*-dev` packages doing things.
 
+# Latest
+
 OK :D (Nice Rust ID on the SIM repo ... robot giggle)
 
 `>`
 
-
+`Friday 2023-03-10 16:00:43 [dev-bot] #47` compiles all, but the `win` has no `j`, no `efsw` callback working and no forking due to `posix` pipe support and `fork` not being available. There's a nice `isWindows()` function though for further development, and a `fileExeTension()` for when the base name doesn't work. I kept it generic justb in case I make windows `fork` work. So a weird hack of `premake4` (`lin` by the repo makefiles predone, `mac` by a botch `brew` and `win` by ignoring such notifications of change). It's kind of impossible without a set of makefiles for `win`. Any offers?
