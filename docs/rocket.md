@@ -62,8 +62,6 @@ The build of `J` is interesting, as I'm making an new branch to investigate if a
 
 With a bit of planning this might be a nice module. I'm imagining something like time, polyphony and some other control CV for indexing the `J` arrays returned. Of course it will be a bit inefficient as parsing and stringifying floats might be quite division intensive. But, the goal is to make the change over between arrays synchronous in some fashion.
 
-# Latest
-
 ## So `KRTPluginJ` Then
 
 The starting repository is here. Not much done yet apart from [planning](https://github.com/jackokring/jqt-chromebook-arm/blob/libj-wrapper/README.md) how it will work, and what front panelage might be needed. It has to be external to the `KRTPluginA` which has a MIT licence as `J` is all GPL3. Also it might only be self build DIY and not in the library.
@@ -75,6 +73,8 @@ Great, I found the `-Wno-attributes` FLAGS option. Cool, now I don't have to see
 Decided on the panels of prime number HP, with an auto select depending on the number of control lanes or collumns selected. I'm going for a nice cyan kind of blue. Next up is somekind of control scheme match. Then some back port planning for `KRTPluginA/Z` to complete it, and bring a closure. I'm not sure if I'll facelift `A`.
 
 From now on all `KRTPluginJ` suff will be [here](KRTPluginJ.md) as this keeps this page more generic to `KRTPluginA` and the general process and news of rack devewlopments.
+
+# Latest
 
 ## Linux ARM Autobuild
 
@@ -89,7 +89,9 @@ Ah, yes it's looking into key bindings time. [KeyBindings](https://vcvrack.com/m
 
 So that solves the hover/select issue, so only the key/text issue is pending. And must `consume` select to prevent hover, and hover drills down until terminal `Widget` leaf nodes as child iterator is null code. `Key` is physical USB HID code (`key`) or remapped printables (`keyNmae`). `Text` is for Unicode events, and must `consume` to prevent hover. So likey `Key` is the one, unless textual entry on a selected widget is required.
 
+## 2.25.30
 
+Bug fix build as some modules used a parameter to store internals. It needs to be a `ConfigSwitch` as smoothing of parameter values now would make bad assignments, and a malfunction.
 
-## 2.26.29 `Z`
+## 2.26.31 `Z`
 TBC

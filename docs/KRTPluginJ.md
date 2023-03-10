@@ -65,4 +65,6 @@ OK :D (Nice Rust ID on the SIM repo ... robot giggle)
 
 `>`
 
-`Friday 2023-03-10 16:00:43 [dev-bot] #47` compiles all, but the `win` has no `j`, no `efsw` callback working and no forking due to `posix` pipe support and `fork` not being available. There's a nice `isWindows()` function though for further development, and a `fileExeTension()` for when the base name doesn't work. I kept it generic justb in case I make windows `fork` work. So a weird hack of `premake4` (`lin` by the repo makefiles predone, `mac` by a botch `brew` and `win` by ignoring such notifications of change). It's kind of impossible without a set of makefiles for `win`. Any offers?
+`Friday 2023-03-10 16:00:43 [dev-bot] #47` compiles all, but the `win` has no `j`, no `efsw` callback working and no forking due to `posix` pipe support and `fork` not being available. There's a nice `isWindows()` function though for further development, and a `fileExeTension()` for when the base name doesn't work. I kept it generic justb in case I make windows `fork` work. So a weird hack of `premake4` (`lin` by the repo makefiles predone, `mac` by a botch `brew` and `win` by ignoring such notifications of change). It's kind of impossible without a set of makefiles for `win`. Any offers? Oh `--os=` a `.gitignore` and makefiles for all platforms :D.
+
+
