@@ -29,6 +29,7 @@ spass
 standardly
 struct
 thunar
+upto
 vont
 vrock'it
 Werror
