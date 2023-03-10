@@ -46,7 +46,7 @@ I'm cleaning up the archives of older versions as they aren't much use to me or 
 ## General Coding
 So I deleted `nautilus` and installed `thunar` instead to increase efficiency. That background `tracker-miner-fs` task is a bit of a hog at inconvenient moments (glitch). I also added in some more recent versions of some plugins.
 
-I've also been building `OpenRA` (Red Alert - the game) and `J` (from jsoftware - the language) to get more things running on this Chromebook. `J` especially was a big task (SSD wise) as `jqt` needed quite a lot of `Qt5` dependancies installed. I seem to have `QtCreator` installed now "for free". I might have to pack down some of the build code, of some projects, to free up some space.
+I've also been building `OpenRA` (Red Alert - the game) and `J` (from jsoftware - the language) to get more things running on this Chromebook. `J` especially was a big task (SSD wise) as `jqt` needed quite a lot of `Qt5` dependencies installed. I seem to have `QtCreator` installed now "for free". I might have to pack down some of the build code, of some projects, to free up some space.
 
 For python I have made some `.bashrc` entries:
 
@@ -58,21 +58,21 @@ For python I have made some `.bashrc` entries:
  
 To allow upgrading packages, and reducing the number of version conflicts after. I managed to get my current `pip check` down to just `ossfs` needing an older version of `fsspec` for some AWS thing built into something, which I'm not using.
 
-The build of `J` is interesting, as I'm making an new branch to investigate if a `KRTPluginJ` might be possible. Basically (kind of inspirational pun intended) the `J` library in its own thread with IO module extenders to operate on data streams represented as `J` global variables with all the code in `A` to `Z` globals set in `profile.ijs`. Some limits on the `mac-arm64` version as they don't directly `make` such a `libj.so` equivelent.
+The build of `J` is interesting, as I'm making an new branch to investigate if a `KRTPluginJ` might be possible. Basically (kind of inspirational pun intended) the `J` library in its own thread with IO module extenders to operate on data streams represented as `J` global variables with all the code in `A` to `Z` globals set in `profile.ijs`. Some limits on the `mac-arm64` version as they don't directly `make` such a `libj.so` equivalent.
 
-With a bit of planning this might be a nice module. I'm imagining something like time, polyphony and some other control CV for indexing the `J` arrays returned. Of course it will be a bit inefficient as parsing and stringifying floats might be quite division intensive. But, the goal is to make the change over between arrays synchronous in some fashion.
+With a bit of planning this might be a nice module. I'm imagining something like time, polyphony and some other control CV for indexing the `J` arrays returned. Of course it will be a bit inefficient as parsing and stringified floats might be quite division intensive. But, the goal is to make the change over between arrays synchronous in some fashion.
 
 ## So `KRTPluginJ` Then
 
-The starting repository is here. Not much done yet apart from [planning](https://github.com/jackokring/jqt-chromebook-arm/blob/libj-wrapper/README.md) how it will work, and what front panelage might be needed. It has to be external to the `KRTPluginA` which has a MIT licence as `J` is all GPL3. Also it might only be self build DIY and not in the library.
+The starting repository is here. Not much done yet apart from [planning](https://github.com/jackokring/jqt-chromebook-arm/blob/libj-wrapper/README.md) how it will work, and what front panelage might be needed. It has to be external to the `KRTPluginA` which has a MIT license as `J` is all GPL3. Also it might only be self build DIY and not in the library.
 
-The `Make` process works making a package, but this has yet to contain the right module code. Looking into `efsw` for file watching changees. Also I made it build `j` from source and install emacs through `sudo apt`. Careful, it's not the `master` or `main` branch. I think I might leave that for a clone of my first `j` build.
+The `Make` process works making a package, but this has yet to contain the right module code. Looking into `efsw` for file watching changes. Also I made it build `j` from source and install emacs through `sudo apt`. Careful, it's not the `master` or `main` branch. I think I might leave that for a clone of my first `j` build.
 
 Great, I found the `-Wno-attributes` FLAGS option. Cool, now I don't have to see warning about `Int24` go by. I might just commit it to prevent overwriting it on a possible future `git pull --rebase` of the rack source.
 
-Decided on the panels of prime number HP, with an auto select depending on the number of control lanes or collumns selected. I'm going for a nice cyan kind of blue. Next up is somekind of control scheme match. Then some back port planning for `KRTPluginA/Z` to complete it, and bring a closure. I'm not sure if I'll facelift `A`.
+Decided on the panels of prime number HP, with an auto select depending on the number of control lanes or columns selected. I'm going for a nice cyan kind of blue. Next up is some kind of control scheme match. Then some back port planning for `KRTPluginA/Z` to complete it, and bring a closure. I'm not sure if I'll facelift `A`.
 
-From now on all `KRTPluginJ` suff will be [here](KRTPluginJ.md) as this keeps this page more generic to `KRTPluginA` and the general process and news of rack devewlopments.
+From now on all `KRTPluginJ` stuff will be [here](KRTPluginJ.md) as this keeps this page more generic to `KRTPluginA` and the general process and news of rack developments.
 
 # Latest
 
@@ -85,9 +85,9 @@ I've also added dated error logging and distribution builds on just resource cha
 Ah, yes it's looking into key bindings time. [KeyBindings](https://vcvrack.com/manual/KeyCommands) and I think not using app globals is a good idea. This leaves
 
   * Must Hover Module commands - look easy to do, but some commands seem impossible? [Key versus Text](https://vcvrack.com/docs-v2/structrack_1_1widget_1_1Widget#adc26e1f6b9286a3d6506d5d37c3803c4) and no cursor keys allowed as intercepted to scroll Rack.
-  * Selected Widget commands - `onSelect...` versus `onHover...`.  althogh the documentation implies parameters must not do hover, and modules must not do select. 
+  * Selected Widget commands - `onSelect...` versus `onHover...`.  although the documentation implies parameters must not do hover, and modules must not do select. 
 
-So that solves the hover/select issue, so only the key/text issue is pending. And must `consume` select to prevent hover, and hover drills down until terminal `Widget` leaf nodes as child iterator is null code. `Key` is physical USB HID code (`key`) or remapped printables (`keyNmae`). `Text` is for Unicode events, and must `consume` to prevent hover. So likey `Key` is the one, unless textual entry on a selected widget is required.
+So that solves the hover/select issue, so only the key/text issue is pending. And must `consume` select to prevent hover, and hover drills down until terminal `Widget` leaf nodes as child iterator is null code. `Key` is physical USB HID code (`key`) or remapped printables (`keyName`). `Text` is for Unicode events, and must `consume` to prevent hover. So likely `Key` is the one, unless textual entry on a selected widget is required.
 
 ## 2.25.30
 
