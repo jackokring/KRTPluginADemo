@@ -69,4 +69,4 @@ I almost messed up on the `-1` control specifications for "no control" at panel 
 
 Feel free to use [jackokring/efsw](https://github.com/jackokring/efsw) if you don't want to go through the `Makefile` generation of targets you don't have access to. It is the best CI solution for me. The evil Lua is put to for such a nice little embedable lingo. Maybe ...
 
-
+So some hot key functions to limit usage in the ANSI keyboard MIDI input context. **QMK** input devices rock. I've got a board someday to MX blue. The parameters need a `Module` or `ParamWidget` and so then only allow `Hover` and `Select` of the `AFK-'48` set. This reserves space and tab and the function set not on **Chromebook** and ANSI-60. Alt `\` and `#` are removed too as they're internationally renowned. I do find AltGr+U a Unicode funny in the ANSI marking. 
