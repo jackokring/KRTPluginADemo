@@ -7,6 +7,7 @@ dudumdida
 efsw
 embedable
 FARPROC
+gedit
 jackokring
 jsoftware
 libefsw
@@ -33,6 +34,7 @@ standardly
 struct
 sycle
 thunar
+upcasting
 upto
 vont
 vrock'it
