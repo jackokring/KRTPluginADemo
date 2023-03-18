@@ -34,6 +34,7 @@ standardly
 struct
 sycle
 thunar
+tweek
 upcasting
 upto
 vont

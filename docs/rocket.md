@@ -89,9 +89,13 @@ Ah, yes it's looking into key bindings time. [KeyBindings](https://vcvrack.com/m
 
 So that solves the hover/select issue, so only the key/text issue is pending. And must `consume` select to prevent hover, and hover drills down until terminal `Widget` leaf nodes as child iterator is null code. `Key` is physical USB HID code (`key`) or remapped printables (`keyName`). `Text` is for Unicode events, and must `consume` to prevent hover. So likely `Key` is the one, unless textual entry on a selected widget is required.
 
-## 2.25.30
+## 2.26.30
 
 Bug fix build as some modules used a parameter to store internals. It needs to be a `ConfigSwitch` as smoothing of parameter values now would make bad assignments, and a malfunction.
 
-## 2.26.31 `Z`
+## 2.26.31
+
+Bug fix to allow full range of phase knob in `I`. It might need a patch tweek to fix alignments.
+
+## 2.26.32 `Z`
 TBC
