@@ -76,3 +76,5 @@ Ah, so some simple filename construction helper abstractions and tunneling some 
 So some functions to handle transparent file initialization from the presets folder for a module, and to transparently make any necessary directories. Also making it an interface so as to not place any files where they shouldn't go. It's not fully secure in that `/../` is not replaced and it still easy to access other files. It's more of a "restriction interface".
 
 Just uninstalled the `C++` VSCode extension. Oh how fast she goes now! It's almost like `gedit`. Hurrah for ridding the stupid idea of code completion in a lingo where type prefixes and wild card identifier introduction is illogical and macros morph the code beyond application of regex. 
+
+So I've started on some simple `uiTheme` SVG files for the backgrounds. Simple light and dark versions of the base colour. I'll have to decide on the controls next. Keeping it very black/white seems like the easy way.
